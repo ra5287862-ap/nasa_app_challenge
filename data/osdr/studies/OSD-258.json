@@ -1,0 +1,26 @@
+{
+  "study_id": "OSD-258",
+  "title": "Cardiovascular responses during spaceflight",
+  "description": "Investigation of cardiovascular adaptation, including heart rate and autonomic regulation, in crew exposed to microgravity.",
+  "source": "OSDR",
+  "cached_at": "2026-09-30T14:11:33Z",
+  "retrieved_at": "2026-09-30T14:11:33Z",
+  "cache_version": "1.0.0",
+  "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-258",
+  "signals": [
+    "heart_rate",
+    "hrv"
+  ],
+  "organism": "Homo sapiens",
+  "mission": "ISS Expeditions / Space Shuttle Analog",
+  "factors": [
+    "microgravity",
+    "spaceflight duration",
+    "autonomic regulation"
+  ],
+  "assays": [
+    "Electrocardiogram (ECG)",
+    "Continuous Blood Pressure",
+    "Holter telemetry"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "study_id": "OSD-370",
+  "title": "Autonomic regulation and heart rate variability in orbit",
+  "description": "Analysis of heart rate variability changes associated with microgravity exposure, prolonged confinement and mission stress.",
+  "source": "OSDR",
+  "cached_at": "2026-09-30T14:11:33Z",
+  "retrieved_at": "2026-09-30T14:11:33Z",
+  "cache_version": "1.0.0",
+  "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-370",
+  "signals": [
+    "hrv",
+    "heart_rate"
+  ],
+  "organism": "Homo sapiens",
+  "mission": "ISS Increment Study",
+  "factors": [
+    "spaceflight",
+    "parasympathetic tone",
+    "circadian drift"
+  ],
+  "assays": [
+    "HRV Spectral Analysis",
+    "Autonomous Nervous Monitoring"
+  ]
+}

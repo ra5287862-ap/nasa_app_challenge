@@ -1,0 +1,25 @@
+{
+  "study_id": "OSD-488",
+  "title": "Respiratory and oxygen saturation measures in spaceflight analogs",
+  "description": "Continuous monitoring of pulse oximetry (SpO2) and respiratory patterns in hypobaric and spaceflight analog habitats.",
+  "source": "OSDR",
+  "cached_at": "2026-09-30T14:11:33Z",
+  "retrieved_at": "2026-09-30T14:11:33Z",
+  "cache_version": "1.0.0",
+  "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-488",
+  "signals": [
+    "spo2"
+  ],
+  "organism": "Homo sapiens",
+  "mission": "HERA (Human Exploration Research Analog) & ISS",
+  "factors": [
+    "elevated CO2",
+    "ambient pressure",
+    "confinement"
+  ],
+  "assays": [
+    "Pulse Oximetry",
+    "Capnography",
+    "Spirometry"
+  ]
+}

@@ -1,0 +1,201 @@
+================================================================================
+NASA SPACE APPS CHALLENGE — DEMO VIDEO SCRIPT & RECORDING GUIDE
+Project: ORBIT PULSE — Crew Health Monitoring Console
+Mission: AURORA-01 (Long-Duration Space Exploration)
+================================================================================
+
+Target Video Length: 120 Seconds (2:00 Minutes)
+Short Pitch Length: 30 Seconds
+Dataset Used: NASA Open Science Data Repository (OSDR) Cache v1.0.0
+Core Principle: Statistical Non-Diagnostic Crew Telemetry Monitoring
+
+--------------------------------------------------------------------------------
+OVERALL TIMELINE BREAKDOWN
+--------------------------------------------------------------------------------
+0:00 - 0:15  |  Scene 1: Problem Statement & Introduction Hook
+0:15 - 0:40  |  Scene 2: Live Telemetry & Deterministic Replay Engine
+0:40 - 1:05  |  Scene 3: The Anomaly Event & Auto Fullscreen Alert (Key Moment!)
+1:05 - 1:25  |  Scene 4: Explainability Layer & NASA OSDR Research Integration
+1:25 - 1:45  |  Scene 5: Mission Timeline, Crew Profile & Settings
+1:45 - 2:00  |  Scene 6: Conclusion & Submission Outro
+
+
+================================================================================
+SCENE-BY-SCENE FULL DEMONSTRATION SCRIPT (2 MINUTES)
+================================================================================
+
+--------------------------------------------------------------------------------
+[SCENE 1] 0:00 - 0:15 (Duration: 15 Seconds)
+Theme: The Space Health Problem & Orbit Pulse Introduction
+--------------------------------------------------------------------------------
+
+[Screen Recording Actions]:
+1. Open the dashboard at http://localhost:3000/dashboard
+2. Press F11 in your browser for a clean fullscreen view.
+3. Show the animated space background, the console title "Crew Health Monitor — Mission AURORA-01", and the prominent "SIMULATED DATA" badge.
+
+[On-Screen Captions / Text Overlays]:
+• ORBIT PULSE — CREW HEALTH CONSOLE
+• Built for NASA Space Apps Challenge
+
+[English Voiceover Script]:
+"During long-duration space missions, microgravity, radiation, and confinement alter human physiology in subtle, interconnected ways. Traditional systems either apply rigid Earth-bound ranges or attempt dangerous medical diagnoses. Introducing Orbit Pulse — a crew health monitoring console designed to track personal biometric deviations without claiming medical diagnosis."
+
+[বাংলা গাইড ও নির্দেশনা]:
+শুরুতেই শান্ত কিন্তু গম্ভীর ও আত্মবিশ্বাসী গলায় মহাকাশ অভিযানের চ্যালেঞ্জ এবং অ্যাপটির লক্ষ্য স্পষ্ট করুন।
+
+
+--------------------------------------------------------------------------------
+[SCENE 2] 0:15 - 0:40 (Duration: 25 Seconds)
+Theme: Live Telemetry & Deterministic Replay Engine
+--------------------------------------------------------------------------------
+
+[Screen Recording Actions]:
+1. Move mouse cursor over the 6 Vital Cards:
+   - Heart Rate
+   - HRV (Heart Rate Variability)
+   - SpO2 (Blood Oxygen)
+   - Sleep Hours
+   - Core Temperature
+   - Exercise Minutes
+2. Navigate down to Replay Controls: Click Play, switch playback speed to 2x or 5x, and gently drag the time scrub bar.
+3. Click different signal tabs (e.g. Heart Rate, HRV) to display the dynamic shaded baseline band (Mean ± z*sigma) rendered behind the live signal.
+
+[On-Screen Captions / Text Overlays]:
+• 6 Real-Time Monitored Biometric Signals
+• Deterministic Telemetry Replay Engine (1Hz Telemetry)
+• Rolling Personal Baseline Bands
+
+[English Voiceover Script]:
+"At its heart, Orbit Pulse continuously processes six vital signals. Instead of arbitrary thresholds, the system computes personal rolling baselines with z-score anomaly detection. With our deterministic replay engine, mission flight surgeons and astronauts can scrub backward or fast-forward through time, observing deviations against historical baseline bands in real time."
+
+[বাংলা গাইড ও নির্দেশনা]:
+মাউস কন্ট্রোল খুব স্মুথ রাখুন। স্ক্রাবার নাড়ানোর সাথে সাথে চার্টের আপডেটের ছন্দ ভয়েসের সাথে মিলিয়ে দেখাবেন।
+
+
+--------------------------------------------------------------------------------
+[SCENE 3] 0:40 - 1:05 (Duration: 25 Seconds)  *** CRITICAL JUDGE MOMENT ***
+Theme: Anomaly Event & Automatic Fullscreen Multi-Signal Alert
+--------------------------------------------------------------------------------
+
+[Screen Recording Actions]:
+1. In the Replay Controls, scrub the timeline directly to 07:30 (Index 450) — the deterministic anomaly trigger point.
+2. WATCH THE APP: The app automatically pops up into a Fullscreen Multi-Signal Alert overlay!
+3. Move cursor over the simultaneously deviating signals (Heart Rate spike + HRV drop), baseline values, and z-score breakdown cards.
+4. Press 'Esc' or click the close button to dismiss the modal, returning to the dashboard.
+5. Notice that the dashboard cards now display glowing red "MULTI-SIGNAL" badges.
+
+[On-Screen Captions / Text Overlays]:
+• CRITICAL: Multi-Signal Deviation Detected
+• Automated Emergency Fullscreen Focus
+
+[English Voiceover Script]:
+"When correlated biometric shifts happen simultaneously — such as an elevated heart rate combined with an HRV drop within 48 hours — Orbit Pulse immediately launches an automated fullscreen alert. It cuts through cockpit cognitive overload, spotlighting exactly what shifted, the statistical magnitude, and personal baseline differences."
+
+[বাংলা গাইড ও নির্দেশনা]:
+স্বয়ংক্রিয় ফুলস্ক্রিন অ্যালার্ট জাজদের সবচেয়ে বেশি দৃষ্টি আকর্ষণ করবে। রেকর্ডিং করার সময় এই অংশটি স্পষ্ট ও হাইলাইট করে দেখাবেন।
+
+
+--------------------------------------------------------------------------------
+[SCENE 4] 1:05 - 1:25 (Duration: 20 Seconds)
+Theme: Transparent Explanation & NASA OSDR Research Integration
+--------------------------------------------------------------------------------
+
+[Screen Recording Actions]:
+1. Open the left sidebar and click "Alerts" (/alerts), then click on the active alert (/alerts/:id).
+2. Click the "Explain this alert" button.
+3. Zoom in / show the plain-language summary and the "Safety check: passed" badge (proves that disease and treatment claims are blocked).
+4. Scroll down to "Related NASA research" showing cached peer-reviewed space studies (e.g. OSD-120).
+5. Click "Research" (/research) in the sidebar, and type "microgravity" or "radiation" into the search bar to demonstrate instant live filtering.
+
+[On-Screen Captions / Text Overlays]:
+• Plain-Language Explanation Engine
+• Medical Safety Guardrails (Zero Unverified Claims)
+• Direct NASA OSDR Research Study Integration
+
+[English Voiceover Script]:
+"Orbit Pulse strictly enforces medical safety principles. Rather than diagnosing illnesses, our explanation layer translates mathematical anomalies into plain, transparent language. Crucially, each alert connects directly to NASA Open Science Data Repository studies, granting crew and medical support immediate access to peer-reviewed spaceflight biological data."
+
+[বাংলা গাইড ও নির্দেশনা]:
+"NASA Open Science Data Repository (OSDR)" নামটি পরিষ্কার উচ্চারণে বলবেন, কারণ এটি নাসার মূল জাজিং ক্রাইটেরিয়ার সাথে সম্পৃক্ত।
+
+
+--------------------------------------------------------------------------------
+[SCENE 5] 1:25 - 1:45 (Duration: 20 Seconds)
+Theme: Mission Timeline, Crew Profile & Configurable Settings
+--------------------------------------------------------------------------------
+
+[Screen Recording Actions]:
+1. Navigate to "Timeline" (/timeline): Show the mission-day dot progression (Normal, Deviation, Multi-Signal days).
+2. Navigate to "Crew Profile" (/crew): Display CREW-01 profile, mission duration stats, and personal baseline table.
+3. Navigate to "Settings" (/settings): Drag the Z-Score threshold slider (from 2.0 to 5.0) to demonstrate dynamic operator sensitivity control.
+
+[On-Screen Captions / Text Overlays]:
+• Mission Timeline Progression
+• Personalized Baseline Matrix
+• Dynamic Z-Score Threshold Slider
+
+[English Voiceover Script]:
+"The platform provides complete longitudinal awareness with its Mission Timeline and comprehensive Crew Profile. Mission control operators can adjust z-score thresholds and temporal windows in settings, calibrating sensitivity whether the crew is sleeping, conducting an EVA, or transitioning orbits."
+
+[বাংলা গাইড ও নির্দেশনা]:
+প্রতিটি পেজে ১-২ সেকেন্ড মাউস থামিয়ে দ্রুত ব্রাউজ করুন যাতে অ্যাপটির পূর্ণাঙ্গ ফিচার ও গভীরতা বোঝা যায়।
+
+
+--------------------------------------------------------------------------------
+[SCENE 6] 1:45 - 2:00 (Duration: 15 Seconds)
+Theme: Mission Outro & Submission Summary
+--------------------------------------------------------------------------------
+
+[Screen Recording Actions]:
+1. Return to the main Dashboard (/dashboard) with live pulsing telemetry and rotating space background.
+2. Show a clean ending card or title overlay with: Team Name, Project Name, and GitHub link.
+
+[On-Screen Captions / Text Overlays]:
+• Orbit Pulse — Protecting Humanity Beyond Earth
+• NASA Space Apps Challenge Submission
+• Team: [Your Team Name]
+
+[English Voiceover Script]:
+"By harmonizing personal baseline telemetry with NASA open science research, Orbit Pulse ensures that wherever humanity ventures into the cosmos, astronaut health remains transparent, protected, and empowered. Thank you."
+
+
+================================================================================
+FAST-PITCH ALTERNATIVE: 30-SECOND ELEVATOR PITCH SCRIPT
+(যদি আপনার লোকাল লিড বা স্পেস অ্যাপস গাইডলাইনে শুধু ৩০ সেকেন্ডের ভিডিও চায়)
+================================================================================
+
+[0:00 - 0:08] (Show Dashboard & Vitals):
+"In deep space, subtle biometric shifts can signal mission-critical physiological changes. Meet Orbit Pulse."
+
+[0:08 - 0:16] (Trigger Anomaly at 07:30 / Fullscreen Alert):
+"Using personalized baseline anomaly detection, our console spots multi-signal deviations and automatically triggers an emergency focus HUD."
+
+[0:16 - 0:24] (Show Explanation & NASA OSDR Studies):
+"It delivers safe, non-diagnostic explanations backed by NASA Open Science Data Repository research."
+
+[0:24 - 0:30] (Outro & Closing Slide):
+"Orbit Pulse: Safeguarding astronaut wellness for humanity's next giant leap."
+
+
+================================================================================
+ESSENTIAL VIDEO RECORDING & PRODUCTION CHECKLIST
+================================================================================
+
+1. Resolution & Framerate:
+   • Record at 1080p (1920x1080) at 60 FPS.
+   • Recommended Tools: OBS Studio, Windows Game Bar (Win + G), or Camtasia.
+
+2. Browser Setup:
+   • Open app in Google Chrome or Microsoft Edge.
+   • Press F11 to hide URL bar and bookmarks.
+   • Keep browser zoom at 100%.
+
+3. Audio & Voiceover Quality:
+   • Use a quality microphone or AI Text-to-Speech (ElevenLabs or CapCut TTS).
+   • Ensure crisp English diction with subtle ambient space/sci-fi background music (set music volume to -22 dB).
+
+4. Video Upload & Submission:
+   • Upload to YouTube as "Public" or "Unlisted".
+   • Include Project Title, 2-line summary, and your GitHub Repository URL in the video description.
+================================================================================

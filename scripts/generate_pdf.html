@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <title>NASA Space Apps Challenge — Orbit Pulse Video Script & Recording Guide</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    @page {
+      size: A4;
+      margin: 10mm 12mm 10mm 12mm;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Inter', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      color: #1e293b;
+      background: #ffffff;
+      line-height: 1.45;
+      font-size: 11.5px;
+    }
+
+    /* Cover / Header */
+    .header {
+      background: linear-gradient(135deg, #0b1329 0%, #152238 50%, #0d1b2a 100%);
+      color: #ffffff;
+      padding: 18px 24px;
+      border-radius: 10px;
+      margin-bottom: 14px;
+      position: relative;
+      border: 1px solid #1e293b;
+    }
+    .badge-bar {
+      display: flex;
+      gap: 6px;
+      margin-bottom: 8px;
+      flex-wrap: wrap;
+    }
+    .badge {
+      font-size: 9.5px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.7px;
+      padding: 2.5px 8px;
+      border-radius: 999px;
+      background: rgba(56, 189, 248, 0.15);
+      color: #38bdf8;
+      border: 1px solid rgba(56, 189, 248, 0.3);
+    }
+    .badge.gold {
+      background: rgba(245, 158, 11, 0.18);
+      color: #fbbf24;
+      border-color: rgba(245, 158, 11, 0.4);
+    }
+    .badge.red {
+      background: rgba(239, 68, 68, 0.2);
+      color: #f87171;
+      border-color: rgba(239, 68, 68, 0.4);
+    }
+    .title {
+      font-size: 20px;
+      font-weight: 800;
+      letter-spacing: -0.4px;
+      margin-bottom: 2px;
+      color: #f8fafc;
+    }
+    .subtitle {
+      font-size: 12px;
+      color: #94a3b8;
+      font-weight: 400;
+    }
+    .header-meta {
+      margin-top: 10px;
+      padding-top: 10px;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      font-size: 10.5px;
+    }
+    .header-meta div span {
+      display: block;
+      color: #64748b;
+      font-size: 9.5px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .header-meta div strong {
+      color: #e2e8f0;
+      font-weight: 600;
+    }
+
+    /* Timeline Box */
+    .timeline-strip {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 8px 12px;
+      margin-bottom: 12px;
+      display: flex;
+      justify-content: space-between;
+      font-size: 10.5px;
+    }
+    .timeline-item {
+      text-align: center;
+      flex: 1;
+      position: relative;
+    }
+    .timeline-item strong {
+      display: block;
+      color: #0284c7;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10.5px;
+    }
+    .timeline-item span {
+      font-size: 9.5px;
+      color: #475569;
+    }
+
+    /* Scene Card */
+    .scene-card {
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      margin-bottom: 11px;
+      background: #ffffff;
+      overflow: hidden;
+      page-break-inside: avoid;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.03);
+    }
+    .scene-header {
+      background: #f1f5f9;
+      padding: 6px 14px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #e2e8f0;
+    }
+    .scene-title {
+      font-size: 12px;
+      font-weight: 700;
+      color: #0f172a;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .scene-time {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10px;
+      background: #0284c7;
+      color: #ffffff;
+      padding: 2px 7px;
+      border-radius: 4px;
+      font-weight: 600;
+    }
+    .scene-body {
+      padding: 10px 14px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+    .scene-full {
+      grid-column: 1 / -1;
+    }
+    .block-title {
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      color: #64748b;
+      margin-bottom: 5px;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .action-box {
+      background: #faf5ff;
+      border-left: 3px solid #a855f7;
+      padding: 8px 12px;
+      border-radius: 0 6px 6px 0;
+      font-size: 11.5px;
+      color: #3b0764;
+    }
+    .action-box ul {
+      margin-left: 16px;
+      margin-top: 4px;
+    }
+    .caption-pill {
+      display: inline-block;
+      background: #0f172a;
+      color: #38bdf8;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10px;
+      padding: 2px 7px;
+      border-radius: 4px;
+      margin: 2px 2px 2px 0;
+    }
+    .voiceover-box {
+      background: #f0fdf4;
+      border-left: 3px solid #22c55e;
+      padding: 8px 12px;
+      border-radius: 0 6px 6px 0;
+      font-size: 11.5px;
+      color: #14532d;
+      font-style: italic;
+      line-height: 1.55;
+    }
+    .bangla-note {
+      margin-top: 6px;
+      font-size: 11px;
+      color: #475569;
+      font-style: normal;
+      background: #f8fafc;
+      padding: 6px 10px;
+      border-radius: 6px;
+      border: 1px dashed #cbd5e1;
+    }
+
+    /* Highlight Banner */
+    .alert-banner {
+      background: #fef2f2;
+      border: 1px solid #fecaca;
+      border-left: 4px solid #ef4444;
+      padding: 10px 14px;
+      border-radius: 6px;
+      margin-top: 6px;
+      font-size: 11.5px;
+      color: #991b1b;
+    }
+
+    /* Short Script Section */
+    .short-script-box {
+      background: #eff6ff;
+      border: 1px solid #bfdbfe;
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin-top: 20px;
+      page-break-inside: avoid;
+    }
+    .short-script-box h3 {
+      font-size: 13px;
+      color: #1e40af;
+      margin-bottom: 8px;
+      font-weight: 700;
+    }
+
+    /* Checklist */
+    .checklist-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-top: 14px;
+      font-size: 11px;
+      page-break-inside: avoid;
+    }
+    .check-item {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      padding: 8px 12px;
+      border-radius: 6px;
+    }
+    .check-item strong {
+      color: #0f172a;
+      display: block;
+      margin-bottom: 2px;
+    }
+
+    /* Footer */
+    .footer {
+      margin-top: 24px;
+      padding-top: 12px;
+      border-top: 1px solid #e2e8f0;
+      display: flex;
+      justify-content: space-between;
+      color: #94a3b8;
+      font-size: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="badge-bar">
+      <span class="badge">NASA Space Apps Challenge 2026</span>
+      <span class="badge gold">Mission AURORA-01</span>
+      <span class="badge red">Demo Video Script & Storyboard</span>
+    </div>
+    <h1 class="title">ORBIT PULSE — CREW HEALTH CONSOLE</h1>
+    <p class="subtitle">Complete Screen Recording Actions, On-Screen Captions & Narration Script</p>
+
+    <div class="header-meta">
+      <div>
+        <span>Project Type</span>
+        <strong>Space Health Web App</strong>
+      </div>
+      <div>
+        <span>Target Duration</span>
+        <strong>120 Seconds (2:00 Min)</strong>
+      </div>
+      <div>
+        <span>Research Dataset</span>
+        <strong>NASA OSDR Cache v1.0.0</strong>
+      </div>
+      <div>
+        <span>Core Concept</span>
+        <strong>Non-Diagnostic Monitoring</strong>
+      </div>
+    </div>
+  </div>
+
+  <!-- TIMELINE STRIP -->
+  <div class="timeline-strip">
+    <div class="timeline-item">
+      <strong>0:00 - 0:15</strong>
+      <span>Problem Hook</span>
+    </div>
+    <div class="timeline-item">
+      <strong>0:15 - 0:40</strong>
+      <span>Vitals & Replay</span>
+    </div>
+    <div class="timeline-item">
+      <strong>0:40 - 1:05</strong>
+      <span>Multi-Signal Alert</span>
+    </div>
+    <div class="timeline-item">
+      <strong>1:05 - 1:25</strong>
+      <span>OSDR & Safety Guard</span>
+    </div>
+    <div class="timeline-item">
+      <strong>1:25 - 1:45</strong>
+      <span>Timeline & Baselines</span>
+    </div>
+    <div class="timeline-item">
+      <strong>1:45 - 2:00</strong>
+      <span>Mission Vision</span>
+    </div>
+  </div>
+
+  <!-- SCENE 1 -->
+  <div class="scene-card">
+    <div class="scene-header">
+      <div class="scene-title">
+        <span>🎬 Scene 1: The Problem & Solution Hook</span>
+      </div>
+      <div class="scene-time">0:00 - 0:15 (15s)</div>
+    </div>
+    <div class="scene-body">
+      <div>
+        <div class="block-title">🖥️ Screen Recording Actions</div>
+        <div class="action-box">
+          <ul>
+            <li>Open Dashboard: <code>http://localhost:3000/dashboard</code></li>
+            <li>Press <strong>F11</strong> for fullscreen browser view.</li>
+            <li>Highlight the animated deep-space canvas, glowing title, and prominent <span class="caption-pill">SIMULATED DATA</span> badge.</li>
+          </ul>
+        </div>
+        <div style="margin-top:8px;">
+          <div class="block-title">🏷️ On-Screen Captions</div>
+          <span class="caption-pill">ORBIT PULSE — CREW HEALTH CONSOLE</span>
+          <span class="caption-pill">NASA Space Apps Challenge</span>
+        </div>
+      </div>
+      <div>
+        <div class="block-title">🎙️ English Voiceover Script</div>
+        <div class="voiceover-box">
+          "During long-duration space missions, microgravity, radiation, and confinement alter human physiology in subtle, interconnected ways. Traditional systems either apply rigid Earth-bound ranges or attempt dangerous medical diagnoses. Introducing Orbit Pulse — a crew health monitoring console designed to track personal biometric deviations without claiming medical diagnosis."
+        </div>
+        <div class="bangla-note">
+          <strong>বাংলা গাইড:</strong> শান্ত কিন্তু গম্ভীর ও আত্মবিশ্বাসী গলায় শুরু করুন। মহাকাশের কঠিন বাস্তবতা এবং অ্যাপটির লক্ষ্য স্পষ্ট করুন।
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SCENE 2 -->
+  <div class="scene-card">
+    <div class="scene-header">
+      <div class="scene-title">
+        <span>🎬 Scene 2: Live Telemetry & Deterministic Replay Engine</span>
+      </div>
+      <div class="scene-time">0:15 - 0:40 (25s)</div>
+    </div>
+    <div class="scene-body">
+      <div>
+        <div class="block-title">🖥️ Screen Recording Actions</div>
+        <div class="action-box">
+          <ul>
+            <li>Hover over the <strong>6 Vital Cards</strong> (Heart Rate, HRV, SpO2, Sleep, Core Temp, Exercise).</li>
+            <li>In <strong>Replay Controls</strong>, click <strong>Play</strong>, switch speed to <strong>2x / 5x</strong>, and gently scrub through the mission time slider.</li>
+            <li>Click signal tabs (<code>Heart Rate</code>, <code>HRV</code>) to showcase the dynamic shaded baseline band (Mean &plusmn; z&sigma;).</li>
+          </ul>
+        </div>
+        <div style="margin-top:8px;">
+          <div class="block-title">🏷️ On-Screen Captions</div>
+          <span class="caption-pill">6 Monitored Biometric Signals</span>
+          <span class="caption-pill">Deterministic Replay Engine (1Hz Telemetry)</span>
+          <span class="caption-pill">Rolling Baseline Bands</span>
+        </div>
+      </div>
+      <div>
+        <div class="block-title">🎙️ English Voiceover Script</div>
+        <div class="voiceover-box">
+          "At its heart, Orbit Pulse continuously processes six vital signals. Instead of arbitrary thresholds, the system computes personal rolling baselines with z-score anomaly detection. With our deterministic replay engine, mission flight surgeons and astronauts can scrub backward or fast-forward through time, observing deviations against historical baseline bands in real time."
+        </div>
+        <div class="bangla-note">
+          <strong>বাংলা গাইড:</strong> মাউস কন্ট্রোল খুব স্মুথ রাখুন। স্ক্রাবার নাড়ানোর সাথে সাথে চার্টের আপডেটের ছন্দ ভয়েসের সাথে ম্যাচ করান।
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SCENE 3 -->
+  <div class="scene-card">
+    <div class="scene-header">
+      <div class="scene-title">
+        <span>🎬 Scene 3: Anomaly Event & Automatic Fullscreen Alert</span>
+      </div>
+      <div class="scene-time">0:40 - 1:05 (25s)</div>
+    </div>
+    <div class="scene-body">
+      <div>
+        <div class="block-title">🖥️ Screen Recording Actions</div>
+        <div class="action-box">
+          <ul>
+            <li>Scrub replay to <strong>07:30 (Index 450)</strong> — the predefined anomaly trigger point.</li>
+            <li><strong>The app automatically pops into Fullscreen Multi-Signal Alert modal!</strong></li>
+            <li>Point cursor to the deviating signals (e.g. Heart Rate spike + HRV drop), baseline values, and z-score breakdown.</li>
+            <li>Press <strong>Esc</strong> to return to dashboard; observe the glowing red <span class="caption-pill">MULTI-SIGNAL</span> cards.</li>
+          </ul>
+        </div>
+        <div style="margin-top:8px;">
+          <div class="block-title">🏷️ On-Screen Captions</div>
+          <span class="caption-pill">CRITICAL: Multi-Signal Deviation Detected</span>
+          <span class="caption-pill">Automated Emergency Fullscreen Focus</span>
+        </div>
+      </div>
+      <div>
+        <div class="block-title">🎙️ English Voiceover Script</div>
+        <div class="voiceover-box">
+          "When correlated biometric shifts happen simultaneously — such as an elevated heart rate combined with an HRV drop within 48 hours — Orbit Pulse immediately launches an automated fullscreen alert. It cuts through cockpit cognitive overload, spotlighting exactly what shifted, the statistical magnitude, and personal baseline differences."
+        </div>
+        <div class="alert-banner">
+          🔥 <strong>Judge Impact Moment:</strong> স্বয়ংক্রিয় ফুলস্ক্রিন অ্যালার্ট জাজদের সবচেয়ে বেশি দৃষ্টি আকর্ষণ করবে। এটি মিস করবেন না!
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SCENE 4 -->
+  <div class="scene-card">
+    <div class="scene-header">
+      <div class="scene-title">
+        <span>🎬 Scene 4: Transparent Explanations & NASA OSDR Research</span>
+      </div>
+      <div class="scene-time">1:05 - 1:25 (20s)</div>
+    </div>
+    <div class="scene-body">
+      <div>
+        <div class="block-title">🖥️ Screen Recording Actions</div>
+        <div class="action-box">
+          <ul>
+            <li>Navigate to <code>/alerts</code> and click on the recent alert.</li>
+            <li>Click <strong>"Explain this alert"</strong> button. Show the plain-language summary and the <strong>"Safety check: passed"</strong> badge.</li>
+            <li>Scroll down to <strong>"Related NASA research"</strong> showing real cached OSDR space studies (e.g. OSD-120).</li>
+            <li>Open <code>/research</code> page and type <em>"microgravity"</em> in search bar.</li>
+          </ul>
+        </div>
+        <div style="margin-top:8px;">
+          <div class="block-title">🏷️ On-Screen Captions</div>
+          <span class="caption-pill">Plain-Language Explanation Engine</span>
+          <span class="caption-pill">Medical Safety Guardrails (Zero Unverified Claims)</span>
+          <span class="caption-pill">NASA OSDR Study Integration</span>
+        </div>
+      </div>
+      <div>
+        <div class="block-title">🎙️ English Voiceover Script</div>
+        <div class="voiceover-box">
+          "Orbit Pulse strictly enforces medical safety principles. Rather than diagnosing illnesses, our explanation layer translates mathematical anomalies into plain, transparent language. Crucially, each alert connects directly to NASA Open Science Data Repository studies, granting crew and medical support immediate access to peer-reviewed spaceflight biological data."
+        </div>
+        <div class="bangla-note">
+          <strong>বাংলা গাইড:</strong> NASA Open Science Data Repository (OSDR) নামটি পরিষ্কার উচ্চারণে বলুন, এটি নাসার মূল জাজিং ক্রাইটেরিয়ার সাথে জড়িত।
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SCENE 5 -->
+  <div class="scene-card">
+    <div class="scene-header">
+      <div class="scene-title">
+        <span>🎬 Scene 5: Mission Timeline, Crew Profile & Settings</span>
+      </div>
+      <div class="scene-time">1:25 - 1:45 (20s)</div>
+    </div>
+    <div class="scene-body">
+      <div>
+        <div class="block-title">🖥️ Screen Recording Actions</div>
+        <div class="action-box">
+          <ul>
+            <li>Go to <code>/timeline</code>: Showcase the mission-day dot progression (Normal, Warning, Multi-Signal days).</li>
+            <li>Go to <code>/crew</code>: Display Astronaut CREW-01 overview and personalized baseline statistics.</li>
+            <li>Go to <code>/settings</code>: Drag the Z-Score threshold slider (2.0 to 5.0) to demonstrate dynamic operator control.</li>
+          </ul>
+        </div>
+        <div style="margin-top:8px;">
+          <div class="block-title">🏷️ On-Screen Captions</div>
+          <span class="caption-pill">Mission Timeline Progression</span>
+          <span class="caption-pill">Personalized Baseline Matrix</span>
+          <span class="caption-pill">Dynamic Z-Score Threshold Slider</span>
+        </div>
+      </div>
+      <div>
+        <div class="block-title">🎙️ English Voiceover Script</div>
+        <div class="voiceover-box">
+          "The platform provides complete longitudinal awareness with its Mission Timeline and comprehensive Crew Profile. Mission control operators can adjust z-score thresholds and temporal windows in settings, calibrating sensitivity whether the crew is sleeping, conducting an EVA, or transitioning orbits."
+        </div>
+        <div class="bangla-note">
+          <strong>বাংলা গাইড:</strong> প্রতিটি পেজে ১-২ সেকেন্ড মাউস থামিয়ে দ্রুত ব্রাউজ করুন যাতে অ্যাপের গভীরতা বোঝা যায়।
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SCENE 6 -->
+  <div class="scene-card">
+    <div class="scene-header">
+      <div class="scene-title">
+        <span>🎬 Scene 6: Outro & Submission Call</span>
+      </div>
+      <div class="scene-time">1:45 - 2:00 (15s)</div>
+    </div>
+    <div class="scene-body">
+      <div>
+        <div class="block-title">🖥️ Screen Recording Actions</div>
+        <div class="action-box">
+          <ul>
+            <li>Return to main <code>/dashboard</code> with the pulsing telemetry and space backdrop.</li>
+            <li>End with a closing title card displaying: Team Name, Challenge Name, and GitHub link.</li>
+          </ul>
+        </div>
+        <div style="margin-top:8px;">
+          <div class="block-title">🏷️ On-Screen Captions</div>
+          <span class="caption-pill">Orbit Pulse — Protecting Humanity Beyond Earth</span>
+          <span class="caption-pill">NASA Space Apps Challenge 2026</span>
+        </div>
+      </div>
+      <div>
+        <div class="block-title">🎙️ English Voiceover Script</div>
+        <div class="voiceover-box">
+          "By harmonizing personal baseline telemetry with NASA open science research, Orbit Pulse ensures that wherever humanity ventures into the cosmos, astronaut health remains transparent, protected, and empowered. Thank you."
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 30-SECOND ELEVATOR SCRIPT -->
+  <div class="short-script-box">
+    <h3>⚡ Quick Alternative: 30-Second Elevator Pitch Script</h3>
+    <p style="font-size: 11px; color: #1e3a8a; margin-bottom: 8px;">(যদি গাইডলাইনে ৩০ সেকেন্ডের টিজার বা শর্ট ভিডিও চাওয়া হয়)</p>
+    <div style="font-size: 11.5px; line-height: 1.6; color: #1e293b;">
+      <strong>0:00 - 0:08 (Dashboard):</strong> "In deep space, subtle biometric shifts can signal mission-critical physiological changes. Meet Orbit Pulse."<br>
+      <strong>0:08 - 0:16 (Auto Fullscreen Alert at 07:30):</strong> "Using personalized baseline anomaly detection, our console spots multi-signal deviations and automatically triggers an emergency focus HUD."<br>
+      <strong>0:16 - 0:24 (OSDR & Explain):</strong> "It delivers safe, non-diagnostic explanations backed by NASA Open Science Data Repository research."<br>
+      <strong>0:24 - 0:30 (Outro):</strong> "Orbit Pulse: Safeguarding astronaut wellness for humanity's next giant leap."
+    </div>
+  </div>
+
+  <!-- RECORDING CHECKLIST -->
+  <div class="checklist-grid">
+    <div class="check-item">
+      <strong>🎥 Video Recording Quality</strong>
+      Record in 1080p (1920x1080) at 60 FPS using OBS Studio or Windows Game Bar (Win + G).
+    </div>
+    <div class="check-item">
+      <strong>🖥️ Browser Setup</strong>
+      Press F11 to hide tabs/bookmarks. Use dark browser theme and ensure 100% zoom.
+    </div>
+    <div class="check-item">
+      <strong>🎤 Audio & Voiceover</strong>
+      Use a noise-canceling mic or AI voice (ElevenLabs / CapCut Text-to-Speech) for clear English diction.
+    </div>
+    <div class="check-item">
+      <strong>🚀 Submission Link</strong>
+      Upload to YouTube as <em>Unlisted</em> or <em>Public</em> with 1080p resolution and add GitHub repo link.
+    </div>
+  </div>
+
+  <div class="footer">
+    <span>Orbit Pulse — NASA Space Apps Challenge Submission Kit</span>
+    <span>Generated for Mission AURORA-01 Telemetry</span>
+  </div>
+
+</body>
+</html>

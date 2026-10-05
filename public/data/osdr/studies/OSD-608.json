@@ -1,0 +1,25 @@
+{
+  "study_id": "OSD-608",
+  "title": "Thermoregulation and core body temperature in microgravity",
+  "description": "Observations of sustained core body temperature elevation ('space fever') and heat dissipation changes during orbital flight.",
+  "source": "OSDR",
+  "cached_at": "2026-09-30T14:11:33Z",
+  "retrieved_at": "2026-09-30T14:11:33Z",
+  "cache_version": "1.0.0",
+  "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-608",
+  "signals": [
+    "core_temperature",
+    "sleep_hours"
+  ],
+  "organism": "Homo sapiens",
+  "mission": "ThermoLab / ISS Long Duration",
+  "factors": [
+    "microgravity thermoregulation",
+    "circadian rhythm",
+    "convective heat transfer"
+  ],
+  "assays": [
+    "Double-Sensor Core Body Temp Sensor",
+    "Skin Heat Flux"
+  ]
+}

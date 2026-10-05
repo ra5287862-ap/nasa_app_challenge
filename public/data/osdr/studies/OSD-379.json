@@ -1,0 +1,26 @@
+{
+  "study_id": "OSD-379",
+  "title": "Sleep, circadian rhythm and performance during long-duration flight",
+  "description": "Study of sleep duration, circadian alignment and cognitive alertness during extended orbital space missions.",
+  "source": "OSDR",
+  "cached_at": "2026-09-30T14:11:33Z",
+  "retrieved_at": "2026-09-30T14:11:33Z",
+  "cache_version": "1.0.0",
+  "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-379",
+  "signals": [
+    "sleep_hours",
+    "core_temperature"
+  ],
+  "organism": "Homo sapiens",
+  "mission": "NASA Extreme Environment Mission Operations (NEEMO) & ISS",
+  "factors": [
+    "photoperiod",
+    "circadian disruption",
+    "sleep loss"
+  ],
+  "assays": [
+    "Actigraphy",
+    "Core Temperature Logging",
+    "Cognitive Test Battery"
+  ]
+}

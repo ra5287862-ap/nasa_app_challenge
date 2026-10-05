@@ -1,0 +1,25 @@
+{
+  "study_id": "OSD-530",
+  "title": "Exercise countermeasures and musculoskeletal maintenance",
+  "description": "Evaluation of in-flight aerobic and resistive exercise regimens on cardiovascular deconditioning and metabolic load.",
+  "source": "OSDR",
+  "cached_at": "2026-09-30T14:11:33Z",
+  "retrieved_at": "2026-09-30T14:11:33Z",
+  "cache_version": "1.0.0",
+  "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-530",
+  "signals": [
+    "exercise_minutes",
+    "heart_rate"
+  ],
+  "organism": "Homo sapiens",
+  "mission": "Advanced Resistive Exercise Device (ARED) & T2 Cycle ISS",
+  "factors": [
+    "resistive exercise",
+    "aerobic countermeasure",
+    "VO2 max"
+  ],
+  "assays": [
+    "Cycle Ergometer Telemetry",
+    "Metabolic Cart Analysis"
+  ]
+}
