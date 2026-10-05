@@ -5,7 +5,6 @@ import {
   BellRing,
   CalendarClock,
   Gauge,
-  Home,
   Menu,
   Rocket,
   Settings,
@@ -17,7 +16,6 @@ import { useMission, MISSION_NAME, CREW_ID } from "@/lib/mission-store";
 import { missionDay } from "@/lib/compute";
 
 const NAV = [
-  { to: "/", label: "Home", icon: Home },
   { to: "/dashboard", label: "Dashboard", icon: Gauge },
   { to: "/crew", label: "Crew Profile", icon: UserRound },
   { to: "/signals", label: "Live Signals", icon: Activity },
@@ -63,11 +61,10 @@ function SidebarContent({ onNavigate }: { onNavigate?: () => void }) {
               to={to}
               onClick={onNavigate}
               aria-current={active ? "page" : undefined}
-              className={`flex items-center justify-between rounded-lg px-3 py-2 text-sm transition-colors ${
-                active
+              className={`flex items-center justify-between rounded-lg px-3 py-2 text-sm transition-colors ${active
                   ? "bg-primary/15 text-primary"
                   : "text-muted-foreground hover:bg-accent/40 hover:text-foreground"
-              }`}
+                }`}
             >
               <span className="flex items-center gap-3">
                 <Icon className="size-4" aria-hidden />
