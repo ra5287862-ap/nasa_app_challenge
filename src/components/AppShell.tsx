@@ -47,7 +47,7 @@ function SidebarContent({ onNavigate }: { onNavigate?: () => void }) {
           <Rocket className="size-5" aria-hidden />
         </span>
         <div>
-          <p className="font-display text-sm font-semibold">Mission Health</p>
+          <p className="font-display text-sm font-semibold">Astro Med</p>
           <p className="text-xs text-muted-foreground">{MISSION_NAME}</p>
         </div>
       </div>
