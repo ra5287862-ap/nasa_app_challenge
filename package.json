@@ -12,7 +12,8 @@
     "format": "prettier --write .",
     "generate:fixtures": "python scripts/generate_fixtures.py",
     "cache:osdr": "python scripts/fetch_osdr_cache.py",
-    "backend": "python -m uvicorn backend.main:app --port 8000 --reload"
+    "backend": "python -m uvicorn backend.main:app --port 8000 --reload",
+    "test": "python -m unittest discover tests"
   },
   "overrides": {
     "rolldown": "1.2.1"

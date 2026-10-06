@@ -144,13 +144,22 @@ function gauss(rand: () => number) {
 /* Baseline + z-score                                                  */
 /* ------------------------------------------------------------------ */
 
-export function computeBaseline(values: number[], threshold = Z_THRESHOLD): Baseline {
+export const PHYSIOLOGICAL_MIN_STD: Record<SignalKey, number> = {
+  heart_rate: 2.0,
+  hrv: 2.0,
+  spo2: 0.8,
+  core_temperature: 0.1,
+  sleep_hours: 0.2,
+  exercise_minutes: 1.0,
+};
+
+export function computeBaseline(values: number[], threshold = Z_THRESHOLD, minStd = 0.04): Baseline {
   const n = values.length;
   if (n === 0) return { mean: 0, std: 0, lower: 0, upper: 0 };
   const mean = values.reduce((a, b) => a + b, 0) / n;
   const variance =
     values.reduce((a, b) => a + (b - mean) ** 2, 0) / Math.max(1, n - 1);
-  const std = Math.sqrt(variance);
+  const std = Math.max(minStd, Math.sqrt(variance));
   return {
     mean,
     std,
@@ -161,7 +170,8 @@ export function computeBaseline(values: number[], threshold = Z_THRESHOLD): Base
 
 export function zScore(value: number, b: Baseline) {
   if (!b.std) return 0;
-  return (value - b.mean) / b.std;
+  const safeStd = Math.max(b.std, 0.04);
+  return (value - b.mean) / safeStd;
 }
 
 export function rollingBaseline(
@@ -177,7 +187,8 @@ export function rollingBaseline(
     const s = series[i];
     if (s) values.push(s[key] as number);
   }
-  return computeBaseline(values, threshold);
+  const minStd = PHYSIOLOGICAL_MIN_STD[key] ?? 0.04;
+  return computeBaseline(values, threshold, minStd);
 }
 
 /* ------------------------------------------------------------------ */

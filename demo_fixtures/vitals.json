@@ -1,0 +1,6002 @@
+[
+  {
+    "index": 0,
+    "timestamp": "2026-01-01T00:00:00Z",
+    "heart_rate": 72,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 1,
+    "timestamp": "2026-01-01T00:00:01Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 2,
+    "timestamp": "2026-01-01T00:00:02Z",
+    "heart_rate": 72,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 3,
+    "timestamp": "2026-01-01T00:00:03Z",
+    "heart_rate": 72,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 4,
+    "timestamp": "2026-01-01T00:00:04Z",
+    "heart_rate": 71,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 5,
+    "timestamp": "2026-01-01T00:00:05Z",
+    "heart_rate": 72,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 6,
+    "timestamp": "2026-01-01T00:00:06Z",
+    "heart_rate": 72,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 7,
+    "timestamp": "2026-01-01T00:00:07Z",
+    "heart_rate": 72,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 8,
+    "timestamp": "2026-01-01T00:00:08Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 9,
+    "timestamp": "2026-01-01T00:00:09Z",
+    "heart_rate": 73,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 10,
+    "timestamp": "2026-01-01T00:00:10Z",
+    "heart_rate": 73,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 11,
+    "timestamp": "2026-01-01T00:00:11Z",
+    "heart_rate": 72,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 12,
+    "timestamp": "2026-01-01T00:00:12Z",
+    "heart_rate": 72,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 13,
+    "timestamp": "2026-01-01T00:00:13Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 14,
+    "timestamp": "2026-01-01T00:00:14Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 15,
+    "timestamp": "2026-01-01T00:00:15Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 16,
+    "timestamp": "2026-01-01T00:00:16Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 17,
+    "timestamp": "2026-01-01T00:00:17Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 18,
+    "timestamp": "2026-01-01T00:00:18Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 19,
+    "timestamp": "2026-01-01T00:00:19Z",
+    "heart_rate": 73,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 20,
+    "timestamp": "2026-01-01T00:00:20Z",
+    "heart_rate": 73,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 21,
+    "timestamp": "2026-01-01T00:00:21Z",
+    "heart_rate": 72,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 22,
+    "timestamp": "2026-01-01T00:00:22Z",
+    "heart_rate": 72,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 23,
+    "timestamp": "2026-01-01T00:00:23Z",
+    "heart_rate": 72,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 24,
+    "timestamp": "2026-01-01T00:00:24Z",
+    "heart_rate": 73,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 25,
+    "timestamp": "2026-01-01T00:00:25Z",
+    "heart_rate": 72,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 26,
+    "timestamp": "2026-01-01T00:00:26Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 27,
+    "timestamp": "2026-01-01T00:00:27Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 28,
+    "timestamp": "2026-01-01T00:00:28Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 29,
+    "timestamp": "2026-01-01T00:00:29Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 30,
+    "timestamp": "2026-01-01T00:00:30Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 31,
+    "timestamp": "2026-01-01T00:00:31Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 32,
+    "timestamp": "2026-01-01T00:00:32Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 33,
+    "timestamp": "2026-01-01T00:00:33Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 34,
+    "timestamp": "2026-01-01T00:00:34Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 35,
+    "timestamp": "2026-01-01T00:00:35Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 36,
+    "timestamp": "2026-01-01T00:00:36Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 37,
+    "timestamp": "2026-01-01T00:00:37Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 38,
+    "timestamp": "2026-01-01T00:00:38Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 39,
+    "timestamp": "2026-01-01T00:00:39Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 40,
+    "timestamp": "2026-01-01T00:00:40Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 41,
+    "timestamp": "2026-01-01T00:00:41Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 42,
+    "timestamp": "2026-01-01T00:00:42Z",
+    "heart_rate": 71,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 43,
+    "timestamp": "2026-01-01T00:00:43Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 44,
+    "timestamp": "2026-01-01T00:00:44Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 45,
+    "timestamp": "2026-01-01T00:00:45Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 46,
+    "timestamp": "2026-01-01T00:00:46Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 47,
+    "timestamp": "2026-01-01T00:00:47Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 48,
+    "timestamp": "2026-01-01T00:00:48Z",
+    "heart_rate": 70,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 49,
+    "timestamp": "2026-01-01T00:00:49Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 50,
+    "timestamp": "2026-01-01T00:00:50Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 51,
+    "timestamp": "2026-01-01T00:00:51Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 52,
+    "timestamp": "2026-01-01T00:00:52Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 53,
+    "timestamp": "2026-01-01T00:00:53Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 54,
+    "timestamp": "2026-01-01T00:00:54Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 55,
+    "timestamp": "2026-01-01T00:00:55Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 56,
+    "timestamp": "2026-01-01T00:00:56Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 57,
+    "timestamp": "2026-01-01T00:00:57Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 58,
+    "timestamp": "2026-01-01T00:00:58Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 59,
+    "timestamp": "2026-01-01T00:00:59Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 60,
+    "timestamp": "2026-01-01T00:01:00Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 61,
+    "timestamp": "2026-01-01T00:01:01Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 62,
+    "timestamp": "2026-01-01T00:01:02Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 63,
+    "timestamp": "2026-01-01T00:01:03Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 64,
+    "timestamp": "2026-01-01T00:01:04Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 65,
+    "timestamp": "2026-01-01T00:01:05Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 66,
+    "timestamp": "2026-01-01T00:01:06Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 67,
+    "timestamp": "2026-01-01T00:01:07Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 68,
+    "timestamp": "2026-01-01T00:01:08Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 69,
+    "timestamp": "2026-01-01T00:01:09Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 70,
+    "timestamp": "2026-01-01T00:01:10Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 71,
+    "timestamp": "2026-01-01T00:01:11Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 72,
+    "timestamp": "2026-01-01T00:01:12Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 73,
+    "timestamp": "2026-01-01T00:01:13Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 74,
+    "timestamp": "2026-01-01T00:01:14Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 75,
+    "timestamp": "2026-01-01T00:01:15Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 76,
+    "timestamp": "2026-01-01T00:01:16Z",
+    "heart_rate": 71,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 77,
+    "timestamp": "2026-01-01T00:01:17Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 78,
+    "timestamp": "2026-01-01T00:01:18Z",
+    "heart_rate": 72,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 79,
+    "timestamp": "2026-01-01T00:01:19Z",
+    "heart_rate": 71,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 80,
+    "timestamp": "2026-01-01T00:01:20Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 81,
+    "timestamp": "2026-01-01T00:01:21Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 82,
+    "timestamp": "2026-01-01T00:01:22Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 83,
+    "timestamp": "2026-01-01T00:01:23Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 84,
+    "timestamp": "2026-01-01T00:01:24Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 85,
+    "timestamp": "2026-01-01T00:01:25Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 86,
+    "timestamp": "2026-01-01T00:01:26Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 87,
+    "timestamp": "2026-01-01T00:01:27Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 88,
+    "timestamp": "2026-01-01T00:01:28Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 99,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 89,
+    "timestamp": "2026-01-01T00:01:29Z",
+    "heart_rate": 73,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 90,
+    "timestamp": "2026-01-01T00:01:30Z",
+    "heart_rate": 73,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 91,
+    "timestamp": "2026-01-01T00:01:31Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 92,
+    "timestamp": "2026-01-01T00:01:32Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 93,
+    "timestamp": "2026-01-01T00:01:33Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 94,
+    "timestamp": "2026-01-01T00:01:34Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 95,
+    "timestamp": "2026-01-01T00:01:35Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 96,
+    "timestamp": "2026-01-01T00:01:36Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 97,
+    "timestamp": "2026-01-01T00:01:37Z",
+    "heart_rate": 73,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 98,
+    "timestamp": "2026-01-01T00:01:38Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 99,
+    "timestamp": "2026-01-01T00:01:39Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 100,
+    "timestamp": "2026-01-01T00:01:40Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 101,
+    "timestamp": "2026-01-01T00:01:41Z",
+    "heart_rate": 72,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 102,
+    "timestamp": "2026-01-01T00:01:42Z",
+    "heart_rate": 72,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 103,
+    "timestamp": "2026-01-01T00:01:43Z",
+    "heart_rate": 72,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 104,
+    "timestamp": "2026-01-01T00:01:44Z",
+    "heart_rate": 72,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 105,
+    "timestamp": "2026-01-01T00:01:45Z",
+    "heart_rate": 72,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 106,
+    "timestamp": "2026-01-01T00:01:46Z",
+    "heart_rate": 72,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 107,
+    "timestamp": "2026-01-01T00:01:47Z",
+    "heart_rate": 72,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 108,
+    "timestamp": "2026-01-01T00:01:48Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 109,
+    "timestamp": "2026-01-01T00:01:49Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 110,
+    "timestamp": "2026-01-01T00:01:50Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 111,
+    "timestamp": "2026-01-01T00:01:51Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 112,
+    "timestamp": "2026-01-01T00:01:52Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 113,
+    "timestamp": "2026-01-01T00:01:53Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 114,
+    "timestamp": "2026-01-01T00:01:54Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 115,
+    "timestamp": "2026-01-01T00:01:55Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 116,
+    "timestamp": "2026-01-01T00:01:56Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 117,
+    "timestamp": "2026-01-01T00:01:57Z",
+    "heart_rate": 72,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 118,
+    "timestamp": "2026-01-01T00:01:58Z",
+    "heart_rate": 72,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 119,
+    "timestamp": "2026-01-01T00:01:59Z",
+    "heart_rate": 72,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 120,
+    "timestamp": "2026-01-01T00:02:00Z",
+    "heart_rate": 72,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 121,
+    "timestamp": "2026-01-01T00:02:01Z",
+    "heart_rate": 72,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 122,
+    "timestamp": "2026-01-01T00:02:02Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 123,
+    "timestamp": "2026-01-01T00:02:03Z",
+    "heart_rate": 72,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 124,
+    "timestamp": "2026-01-01T00:02:04Z",
+    "heart_rate": 72,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 125,
+    "timestamp": "2026-01-01T00:02:05Z",
+    "heart_rate": 72,
+    "hrv": 46,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 126,
+    "timestamp": "2026-01-01T00:02:06Z",
+    "heart_rate": 72,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 127,
+    "timestamp": "2026-01-01T00:02:07Z",
+    "heart_rate": 71,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 128,
+    "timestamp": "2026-01-01T00:02:08Z",
+    "heart_rate": 71,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 129,
+    "timestamp": "2026-01-01T00:02:09Z",
+    "heart_rate": 71,
+    "hrv": 46,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 130,
+    "timestamp": "2026-01-01T00:02:10Z",
+    "heart_rate": 72,
+    "hrv": 46,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 131,
+    "timestamp": "2026-01-01T00:02:11Z",
+    "heart_rate": 72,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 132,
+    "timestamp": "2026-01-01T00:02:12Z",
+    "heart_rate": 71,
+    "hrv": 46,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 133,
+    "timestamp": "2026-01-01T00:02:13Z",
+    "heart_rate": 71,
+    "hrv": 46,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 134,
+    "timestamp": "2026-01-01T00:02:14Z",
+    "heart_rate": 71,
+    "hrv": 46,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 135,
+    "timestamp": "2026-01-01T00:02:15Z",
+    "heart_rate": 71,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 136,
+    "timestamp": "2026-01-01T00:02:16Z",
+    "heart_rate": 71,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 137,
+    "timestamp": "2026-01-01T00:02:17Z",
+    "heart_rate": 71,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 138,
+    "timestamp": "2026-01-01T00:02:18Z",
+    "heart_rate": 71,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 139,
+    "timestamp": "2026-01-01T00:02:19Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 140,
+    "timestamp": "2026-01-01T00:02:20Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 141,
+    "timestamp": "2026-01-01T00:02:21Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 142,
+    "timestamp": "2026-01-01T00:02:22Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 143,
+    "timestamp": "2026-01-01T00:02:23Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 144,
+    "timestamp": "2026-01-01T00:02:24Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 145,
+    "timestamp": "2026-01-01T00:02:25Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 146,
+    "timestamp": "2026-01-01T00:02:26Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 147,
+    "timestamp": "2026-01-01T00:02:27Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 148,
+    "timestamp": "2026-01-01T00:02:28Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 149,
+    "timestamp": "2026-01-01T00:02:29Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 150,
+    "timestamp": "2026-01-01T00:02:30Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 151,
+    "timestamp": "2026-01-01T00:02:31Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 152,
+    "timestamp": "2026-01-01T00:02:32Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 153,
+    "timestamp": "2026-01-01T00:02:33Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 154,
+    "timestamp": "2026-01-01T00:02:34Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 155,
+    "timestamp": "2026-01-01T00:02:35Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 156,
+    "timestamp": "2026-01-01T00:02:36Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 157,
+    "timestamp": "2026-01-01T00:02:37Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 158,
+    "timestamp": "2026-01-01T00:02:38Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 159,
+    "timestamp": "2026-01-01T00:02:39Z",
+    "heart_rate": 71,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 160,
+    "timestamp": "2026-01-01T00:02:40Z",
+    "heart_rate": 71,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 161,
+    "timestamp": "2026-01-01T00:02:41Z",
+    "heart_rate": 72,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 162,
+    "timestamp": "2026-01-01T00:02:42Z",
+    "heart_rate": 72,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 163,
+    "timestamp": "2026-01-01T00:02:43Z",
+    "heart_rate": 72,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 164,
+    "timestamp": "2026-01-01T00:02:44Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 165,
+    "timestamp": "2026-01-01T00:02:45Z",
+    "heart_rate": 72,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 166,
+    "timestamp": "2026-01-01T00:02:46Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 167,
+    "timestamp": "2026-01-01T00:02:47Z",
+    "heart_rate": 72,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 168,
+    "timestamp": "2026-01-01T00:02:48Z",
+    "heart_rate": 72,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 169,
+    "timestamp": "2026-01-01T00:02:49Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 170,
+    "timestamp": "2026-01-01T00:02:50Z",
+    "heart_rate": 72,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 171,
+    "timestamp": "2026-01-01T00:02:51Z",
+    "heart_rate": 72,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 172,
+    "timestamp": "2026-01-01T00:02:52Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 173,
+    "timestamp": "2026-01-01T00:02:53Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 174,
+    "timestamp": "2026-01-01T00:02:54Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 175,
+    "timestamp": "2026-01-01T00:02:55Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 176,
+    "timestamp": "2026-01-01T00:02:56Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 177,
+    "timestamp": "2026-01-01T00:02:57Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 178,
+    "timestamp": "2026-01-01T00:02:58Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 179,
+    "timestamp": "2026-01-01T00:02:59Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 180,
+    "timestamp": "2026-01-01T00:03:00Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 181,
+    "timestamp": "2026-01-01T00:03:01Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 182,
+    "timestamp": "2026-01-01T00:03:02Z",
+    "heart_rate": 71,
+    "hrv": 50,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 183,
+    "timestamp": "2026-01-01T00:03:03Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 184,
+    "timestamp": "2026-01-01T00:03:04Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 185,
+    "timestamp": "2026-01-01T00:03:05Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 186,
+    "timestamp": "2026-01-01T00:03:06Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 187,
+    "timestamp": "2026-01-01T00:03:07Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 188,
+    "timestamp": "2026-01-01T00:03:08Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 189,
+    "timestamp": "2026-01-01T00:03:09Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 190,
+    "timestamp": "2026-01-01T00:03:10Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 191,
+    "timestamp": "2026-01-01T00:03:11Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 192,
+    "timestamp": "2026-01-01T00:03:12Z",
+    "heart_rate": 71,
+    "hrv": 50,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 193,
+    "timestamp": "2026-01-01T00:03:13Z",
+    "heart_rate": 71,
+    "hrv": 50,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 194,
+    "timestamp": "2026-01-01T00:03:14Z",
+    "heart_rate": 71,
+    "hrv": 50,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 195,
+    "timestamp": "2026-01-01T00:03:15Z",
+    "heart_rate": 72,
+    "hrv": 50,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 196,
+    "timestamp": "2026-01-01T00:03:16Z",
+    "heart_rate": 72,
+    "hrv": 50,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 197,
+    "timestamp": "2026-01-01T00:03:17Z",
+    "heart_rate": 72,
+    "hrv": 50,
+    "spo2": 99,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 198,
+    "timestamp": "2026-01-01T00:03:18Z",
+    "heart_rate": 72,
+    "hrv": 50,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 199,
+    "timestamp": "2026-01-01T00:03:19Z",
+    "heart_rate": 72,
+    "hrv": 50,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 200,
+    "timestamp": "2026-01-01T00:03:20Z",
+    "heart_rate": 72,
+    "hrv": 50,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 201,
+    "timestamp": "2026-01-01T00:03:21Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 202,
+    "timestamp": "2026-01-01T00:03:22Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 203,
+    "timestamp": "2026-01-01T00:03:23Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 204,
+    "timestamp": "2026-01-01T00:03:24Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 205,
+    "timestamp": "2026-01-01T00:03:25Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 206,
+    "timestamp": "2026-01-01T00:03:26Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 207,
+    "timestamp": "2026-01-01T00:03:27Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 208,
+    "timestamp": "2026-01-01T00:03:28Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 209,
+    "timestamp": "2026-01-01T00:03:29Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 210,
+    "timestamp": "2026-01-01T00:03:30Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 211,
+    "timestamp": "2026-01-01T00:03:31Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 212,
+    "timestamp": "2026-01-01T00:03:32Z",
+    "heart_rate": 73,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 213,
+    "timestamp": "2026-01-01T00:03:33Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 99,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 214,
+    "timestamp": "2026-01-01T00:03:34Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 215,
+    "timestamp": "2026-01-01T00:03:35Z",
+    "heart_rate": 73,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 216,
+    "timestamp": "2026-01-01T00:03:36Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 217,
+    "timestamp": "2026-01-01T00:03:37Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 218,
+    "timestamp": "2026-01-01T00:03:38Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 219,
+    "timestamp": "2026-01-01T00:03:39Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 220,
+    "timestamp": "2026-01-01T00:03:40Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 221,
+    "timestamp": "2026-01-01T00:03:41Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 222,
+    "timestamp": "2026-01-01T00:03:42Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 223,
+    "timestamp": "2026-01-01T00:03:43Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 224,
+    "timestamp": "2026-01-01T00:03:44Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 225,
+    "timestamp": "2026-01-01T00:03:45Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 226,
+    "timestamp": "2026-01-01T00:03:46Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 227,
+    "timestamp": "2026-01-01T00:03:47Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 228,
+    "timestamp": "2026-01-01T00:03:48Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 229,
+    "timestamp": "2026-01-01T00:03:49Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 230,
+    "timestamp": "2026-01-01T00:03:50Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 231,
+    "timestamp": "2026-01-01T00:03:51Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 232,
+    "timestamp": "2026-01-01T00:03:52Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 233,
+    "timestamp": "2026-01-01T00:03:53Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 234,
+    "timestamp": "2026-01-01T00:03:54Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 235,
+    "timestamp": "2026-01-01T00:03:55Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 236,
+    "timestamp": "2026-01-01T00:03:56Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 237,
+    "timestamp": "2026-01-01T00:03:57Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 99,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 238,
+    "timestamp": "2026-01-01T00:03:58Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 239,
+    "timestamp": "2026-01-01T00:03:59Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 240,
+    "timestamp": "2026-01-01T00:04:00Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.9,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 241,
+    "timestamp": "2026-01-01T00:04:01Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.9,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 242,
+    "timestamp": "2026-01-01T00:04:02Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 243,
+    "timestamp": "2026-01-01T00:04:03Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 244,
+    "timestamp": "2026-01-01T00:04:04Z",
+    "heart_rate": 71,
+    "hrv": 50,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 245,
+    "timestamp": "2026-01-01T00:04:05Z",
+    "heart_rate": 71,
+    "hrv": 50,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 246,
+    "timestamp": "2026-01-01T00:04:06Z",
+    "heart_rate": 71,
+    "hrv": 50,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 247,
+    "timestamp": "2026-01-01T00:04:07Z",
+    "heart_rate": 72,
+    "hrv": 50,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 248,
+    "timestamp": "2026-01-01T00:04:08Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 249,
+    "timestamp": "2026-01-01T00:04:09Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 250,
+    "timestamp": "2026-01-01T00:04:10Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 251,
+    "timestamp": "2026-01-01T00:04:11Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 252,
+    "timestamp": "2026-01-01T00:04:12Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 253,
+    "timestamp": "2026-01-01T00:04:13Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 254,
+    "timestamp": "2026-01-01T00:04:14Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 255,
+    "timestamp": "2026-01-01T00:04:15Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 256,
+    "timestamp": "2026-01-01T00:04:16Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 257,
+    "timestamp": "2026-01-01T00:04:17Z",
+    "heart_rate": 70,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 258,
+    "timestamp": "2026-01-01T00:04:18Z",
+    "heart_rate": 71,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 259,
+    "timestamp": "2026-01-01T00:04:19Z",
+    "heart_rate": 70,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 260,
+    "timestamp": "2026-01-01T00:04:20Z",
+    "heart_rate": 71,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 261,
+    "timestamp": "2026-01-01T00:04:21Z",
+    "heart_rate": 71,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 262,
+    "timestamp": "2026-01-01T00:04:22Z",
+    "heart_rate": 71,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 263,
+    "timestamp": "2026-01-01T00:04:23Z",
+    "heart_rate": 71,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 264,
+    "timestamp": "2026-01-01T00:04:24Z",
+    "heart_rate": 71,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 265,
+    "timestamp": "2026-01-01T00:04:25Z",
+    "heart_rate": 72,
+    "hrv": 46,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 266,
+    "timestamp": "2026-01-01T00:04:26Z",
+    "heart_rate": 71,
+    "hrv": 46,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 267,
+    "timestamp": "2026-01-01T00:04:27Z",
+    "heart_rate": 71,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 268,
+    "timestamp": "2026-01-01T00:04:28Z",
+    "heart_rate": 71,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 269,
+    "timestamp": "2026-01-01T00:04:29Z",
+    "heart_rate": 72,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 270,
+    "timestamp": "2026-01-01T00:04:30Z",
+    "heart_rate": 71,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 271,
+    "timestamp": "2026-01-01T00:04:31Z",
+    "heart_rate": 71,
+    "hrv": 46,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 272,
+    "timestamp": "2026-01-01T00:04:32Z",
+    "heart_rate": 71,
+    "hrv": 46,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 273,
+    "timestamp": "2026-01-01T00:04:33Z",
+    "heart_rate": 72,
+    "hrv": 46,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 274,
+    "timestamp": "2026-01-01T00:04:34Z",
+    "heart_rate": 72,
+    "hrv": 46,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 275,
+    "timestamp": "2026-01-01T00:04:35Z",
+    "heart_rate": 72,
+    "hrv": 46,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 276,
+    "timestamp": "2026-01-01T00:04:36Z",
+    "heart_rate": 72,
+    "hrv": 46,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 277,
+    "timestamp": "2026-01-01T00:04:37Z",
+    "heart_rate": 72,
+    "hrv": 46,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 278,
+    "timestamp": "2026-01-01T00:04:38Z",
+    "heart_rate": 72,
+    "hrv": 46,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 279,
+    "timestamp": "2026-01-01T00:04:39Z",
+    "heart_rate": 72,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 280,
+    "timestamp": "2026-01-01T00:04:40Z",
+    "heart_rate": 72,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 281,
+    "timestamp": "2026-01-01T00:04:41Z",
+    "heart_rate": 72,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 282,
+    "timestamp": "2026-01-01T00:04:42Z",
+    "heart_rate": 72,
+    "hrv": 46,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 283,
+    "timestamp": "2026-01-01T00:04:43Z",
+    "heart_rate": 72,
+    "hrv": 46,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 284,
+    "timestamp": "2026-01-01T00:04:44Z",
+    "heart_rate": 72,
+    "hrv": 46,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 285,
+    "timestamp": "2026-01-01T00:04:45Z",
+    "heart_rate": 72,
+    "hrv": 46,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 286,
+    "timestamp": "2026-01-01T00:04:46Z",
+    "heart_rate": 72,
+    "hrv": 46,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 287,
+    "timestamp": "2026-01-01T00:04:47Z",
+    "heart_rate": 71,
+    "hrv": 46,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 288,
+    "timestamp": "2026-01-01T00:04:48Z",
+    "heart_rate": 72,
+    "hrv": 46,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 289,
+    "timestamp": "2026-01-01T00:04:49Z",
+    "heart_rate": 71,
+    "hrv": 45,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 290,
+    "timestamp": "2026-01-01T00:04:50Z",
+    "heart_rate": 71,
+    "hrv": 45,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 291,
+    "timestamp": "2026-01-01T00:04:51Z",
+    "heart_rate": 72,
+    "hrv": 45,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 292,
+    "timestamp": "2026-01-01T00:04:52Z",
+    "heart_rate": 71,
+    "hrv": 45,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 293,
+    "timestamp": "2026-01-01T00:04:53Z",
+    "heart_rate": 71,
+    "hrv": 45,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 294,
+    "timestamp": "2026-01-01T00:04:54Z",
+    "heart_rate": 71,
+    "hrv": 45,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 295,
+    "timestamp": "2026-01-01T00:04:55Z",
+    "heart_rate": 71,
+    "hrv": 46,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 296,
+    "timestamp": "2026-01-01T00:04:56Z",
+    "heart_rate": 71,
+    "hrv": 45,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 297,
+    "timestamp": "2026-01-01T00:04:57Z",
+    "heart_rate": 71,
+    "hrv": 46,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 298,
+    "timestamp": "2026-01-01T00:04:58Z",
+    "heart_rate": 71,
+    "hrv": 45,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 299,
+    "timestamp": "2026-01-01T00:04:59Z",
+    "heart_rate": 71,
+    "hrv": 46,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 300,
+    "timestamp": "2026-01-01T00:05:00Z",
+    "heart_rate": 71,
+    "hrv": 46,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 301,
+    "timestamp": "2026-01-01T00:05:01Z",
+    "heart_rate": 71,
+    "hrv": 46,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 302,
+    "timestamp": "2026-01-01T00:05:02Z",
+    "heart_rate": 71,
+    "hrv": 46,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 303,
+    "timestamp": "2026-01-01T00:05:03Z",
+    "heart_rate": 71,
+    "hrv": 46,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 304,
+    "timestamp": "2026-01-01T00:05:04Z",
+    "heart_rate": 71,
+    "hrv": 46,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 305,
+    "timestamp": "2026-01-01T00:05:05Z",
+    "heart_rate": 72,
+    "hrv": 46,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 306,
+    "timestamp": "2026-01-01T00:05:06Z",
+    "heart_rate": 72,
+    "hrv": 46,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 307,
+    "timestamp": "2026-01-01T00:05:07Z",
+    "heart_rate": 72,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 308,
+    "timestamp": "2026-01-01T00:05:08Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 309,
+    "timestamp": "2026-01-01T00:05:09Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 310,
+    "timestamp": "2026-01-01T00:05:10Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 311,
+    "timestamp": "2026-01-01T00:05:11Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 312,
+    "timestamp": "2026-01-01T00:05:12Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 313,
+    "timestamp": "2026-01-01T00:05:13Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 314,
+    "timestamp": "2026-01-01T00:05:14Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 315,
+    "timestamp": "2026-01-01T00:05:15Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 316,
+    "timestamp": "2026-01-01T00:05:16Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 317,
+    "timestamp": "2026-01-01T00:05:17Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 318,
+    "timestamp": "2026-01-01T00:05:18Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 319,
+    "timestamp": "2026-01-01T00:05:19Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 320,
+    "timestamp": "2026-01-01T00:05:20Z",
+    "heart_rate": 70,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 321,
+    "timestamp": "2026-01-01T00:05:21Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 322,
+    "timestamp": "2026-01-01T00:05:22Z",
+    "heart_rate": 70,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 323,
+    "timestamp": "2026-01-01T00:05:23Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 324,
+    "timestamp": "2026-01-01T00:05:24Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 325,
+    "timestamp": "2026-01-01T00:05:25Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 326,
+    "timestamp": "2026-01-01T00:05:26Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 327,
+    "timestamp": "2026-01-01T00:05:27Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 328,
+    "timestamp": "2026-01-01T00:05:28Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 329,
+    "timestamp": "2026-01-01T00:05:29Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 330,
+    "timestamp": "2026-01-01T00:05:30Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 331,
+    "timestamp": "2026-01-01T00:05:31Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 332,
+    "timestamp": "2026-01-01T00:05:32Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 333,
+    "timestamp": "2026-01-01T00:05:33Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 334,
+    "timestamp": "2026-01-01T00:05:34Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 335,
+    "timestamp": "2026-01-01T00:05:35Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 336,
+    "timestamp": "2026-01-01T00:05:36Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 337,
+    "timestamp": "2026-01-01T00:05:37Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 338,
+    "timestamp": "2026-01-01T00:05:38Z",
+    "heart_rate": 73,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 339,
+    "timestamp": "2026-01-01T00:05:39Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 340,
+    "timestamp": "2026-01-01T00:05:40Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 341,
+    "timestamp": "2026-01-01T00:05:41Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 99,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 342,
+    "timestamp": "2026-01-01T00:05:42Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 343,
+    "timestamp": "2026-01-01T00:05:43Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 344,
+    "timestamp": "2026-01-01T00:05:44Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 345,
+    "timestamp": "2026-01-01T00:05:45Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 346,
+    "timestamp": "2026-01-01T00:05:46Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 347,
+    "timestamp": "2026-01-01T00:05:47Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 348,
+    "timestamp": "2026-01-01T00:05:48Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 349,
+    "timestamp": "2026-01-01T00:05:49Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 350,
+    "timestamp": "2026-01-01T00:05:50Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 351,
+    "timestamp": "2026-01-01T00:05:51Z",
+    "heart_rate": 71,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 352,
+    "timestamp": "2026-01-01T00:05:52Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 353,
+    "timestamp": "2026-01-01T00:05:53Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 354,
+    "timestamp": "2026-01-01T00:05:54Z",
+    "heart_rate": 71,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 355,
+    "timestamp": "2026-01-01T00:05:55Z",
+    "heart_rate": 71,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 356,
+    "timestamp": "2026-01-01T00:05:56Z",
+    "heart_rate": 71,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 357,
+    "timestamp": "2026-01-01T00:05:57Z",
+    "heart_rate": 71,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 358,
+    "timestamp": "2026-01-01T00:05:58Z",
+    "heart_rate": 71,
+    "hrv": 47,
+    "spo2": 99,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 359,
+    "timestamp": "2026-01-01T00:05:59Z",
+    "heart_rate": 71,
+    "hrv": 47,
+    "spo2": 99,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 360,
+    "timestamp": "2026-01-01T00:06:00Z",
+    "heart_rate": 71,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 361,
+    "timestamp": "2026-01-01T00:06:01Z",
+    "heart_rate": 71,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 362,
+    "timestamp": "2026-01-01T00:06:02Z",
+    "heart_rate": 71,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 363,
+    "timestamp": "2026-01-01T00:06:03Z",
+    "heart_rate": 70,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 364,
+    "timestamp": "2026-01-01T00:06:04Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 365,
+    "timestamp": "2026-01-01T00:06:05Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 366,
+    "timestamp": "2026-01-01T00:06:06Z",
+    "heart_rate": 70,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 367,
+    "timestamp": "2026-01-01T00:06:07Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 99,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 368,
+    "timestamp": "2026-01-01T00:06:08Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 369,
+    "timestamp": "2026-01-01T00:06:09Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 370,
+    "timestamp": "2026-01-01T00:06:10Z",
+    "heart_rate": 71,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 371,
+    "timestamp": "2026-01-01T00:06:11Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 372,
+    "timestamp": "2026-01-01T00:06:12Z",
+    "heart_rate": 71,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 373,
+    "timestamp": "2026-01-01T00:06:13Z",
+    "heart_rate": 71,
+    "hrv": 47,
+    "spo2": 99,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 374,
+    "timestamp": "2026-01-01T00:06:14Z",
+    "heart_rate": 71,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 375,
+    "timestamp": "2026-01-01T00:06:15Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 376,
+    "timestamp": "2026-01-01T00:06:16Z",
+    "heart_rate": 71,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 377,
+    "timestamp": "2026-01-01T00:06:17Z",
+    "heart_rate": 71,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 378,
+    "timestamp": "2026-01-01T00:06:18Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 379,
+    "timestamp": "2026-01-01T00:06:19Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 380,
+    "timestamp": "2026-01-01T00:06:20Z",
+    "heart_rate": 71,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 381,
+    "timestamp": "2026-01-01T00:06:21Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 382,
+    "timestamp": "2026-01-01T00:06:22Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 383,
+    "timestamp": "2026-01-01T00:06:23Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 384,
+    "timestamp": "2026-01-01T00:06:24Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 385,
+    "timestamp": "2026-01-01T00:06:25Z",
+    "heart_rate": 72,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 386,
+    "timestamp": "2026-01-01T00:06:26Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 387,
+    "timestamp": "2026-01-01T00:06:27Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 388,
+    "timestamp": "2026-01-01T00:06:28Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 389,
+    "timestamp": "2026-01-01T00:06:29Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 390,
+    "timestamp": "2026-01-01T00:06:30Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 391,
+    "timestamp": "2026-01-01T00:06:31Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 392,
+    "timestamp": "2026-01-01T00:06:32Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 393,
+    "timestamp": "2026-01-01T00:06:33Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 394,
+    "timestamp": "2026-01-01T00:06:34Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 395,
+    "timestamp": "2026-01-01T00:06:35Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 396,
+    "timestamp": "2026-01-01T00:06:36Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 397,
+    "timestamp": "2026-01-01T00:06:37Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 398,
+    "timestamp": "2026-01-01T00:06:38Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 399,
+    "timestamp": "2026-01-01T00:06:39Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 400,
+    "timestamp": "2026-01-01T00:06:40Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 401,
+    "timestamp": "2026-01-01T00:06:41Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 402,
+    "timestamp": "2026-01-01T00:06:42Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 403,
+    "timestamp": "2026-01-01T00:06:43Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 404,
+    "timestamp": "2026-01-01T00:06:44Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 405,
+    "timestamp": "2026-01-01T00:06:45Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 406,
+    "timestamp": "2026-01-01T00:06:46Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 407,
+    "timestamp": "2026-01-01T00:06:47Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 408,
+    "timestamp": "2026-01-01T00:06:48Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 409,
+    "timestamp": "2026-01-01T00:06:49Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 410,
+    "timestamp": "2026-01-01T00:06:50Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 411,
+    "timestamp": "2026-01-01T00:06:51Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 412,
+    "timestamp": "2026-01-01T00:06:52Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 413,
+    "timestamp": "2026-01-01T00:06:53Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 414,
+    "timestamp": "2026-01-01T00:06:54Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 415,
+    "timestamp": "2026-01-01T00:06:55Z",
+    "heart_rate": 71,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 416,
+    "timestamp": "2026-01-01T00:06:56Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 417,
+    "timestamp": "2026-01-01T00:06:57Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 418,
+    "timestamp": "2026-01-01T00:06:58Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 419,
+    "timestamp": "2026-01-01T00:06:59Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 420,
+    "timestamp": "2026-01-01T00:07:00Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 421,
+    "timestamp": "2026-01-01T00:07:01Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 422,
+    "timestamp": "2026-01-01T00:07:02Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 423,
+    "timestamp": "2026-01-01T00:07:03Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 424,
+    "timestamp": "2026-01-01T00:07:04Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 425,
+    "timestamp": "2026-01-01T00:07:05Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 426,
+    "timestamp": "2026-01-01T00:07:06Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 427,
+    "timestamp": "2026-01-01T00:07:07Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 428,
+    "timestamp": "2026-01-01T00:07:08Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 429,
+    "timestamp": "2026-01-01T00:07:09Z",
+    "heart_rate": 71,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 430,
+    "timestamp": "2026-01-01T00:07:10Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 431,
+    "timestamp": "2026-01-01T00:07:11Z",
+    "heart_rate": 72,
+    "hrv": 49,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 432,
+    "timestamp": "2026-01-01T00:07:12Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 433,
+    "timestamp": "2026-01-01T00:07:13Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 434,
+    "timestamp": "2026-01-01T00:07:14Z",
+    "heart_rate": 72,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 435,
+    "timestamp": "2026-01-01T00:07:15Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 436,
+    "timestamp": "2026-01-01T00:07:16Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 437,
+    "timestamp": "2026-01-01T00:07:17Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 438,
+    "timestamp": "2026-01-01T00:07:18Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 439,
+    "timestamp": "2026-01-01T00:07:19Z",
+    "heart_rate": 72,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 440,
+    "timestamp": "2026-01-01T00:07:20Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 441,
+    "timestamp": "2026-01-01T00:07:21Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 442,
+    "timestamp": "2026-01-01T00:07:22Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 443,
+    "timestamp": "2026-01-01T00:07:23Z",
+    "heart_rate": 71,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 444,
+    "timestamp": "2026-01-01T00:07:24Z",
+    "heart_rate": 71,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 445,
+    "timestamp": "2026-01-01T00:07:25Z",
+    "heart_rate": 72,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 446,
+    "timestamp": "2026-01-01T00:07:26Z",
+    "heart_rate": 71,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 447,
+    "timestamp": "2026-01-01T00:07:27Z",
+    "heart_rate": 71,
+    "hrv": 47,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 448,
+    "timestamp": "2026-01-01T00:07:28Z",
+    "heart_rate": 71,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 449,
+    "timestamp": "2026-01-01T00:07:29Z",
+    "heart_rate": 72,
+    "hrv": 48,
+    "spo2": 98,
+    "sleep_hours": 7.4,
+    "core_temperature": 36.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 450,
+    "timestamp": "2026-01-01T00:07:30Z",
+    "heart_rate": 104,
+    "hrv": 26,
+    "spo2": 94,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.7,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 451,
+    "timestamp": "2026-01-01T00:07:31Z",
+    "heart_rate": 106,
+    "hrv": 26,
+    "spo2": 93,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 452,
+    "timestamp": "2026-01-01T00:07:32Z",
+    "heart_rate": 107,
+    "hrv": 25,
+    "spo2": 93,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.9,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 453,
+    "timestamp": "2026-01-01T00:07:33Z",
+    "heart_rate": 110,
+    "hrv": 24,
+    "spo2": 93,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.9,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 454,
+    "timestamp": "2026-01-01T00:07:34Z",
+    "heart_rate": 110,
+    "hrv": 22,
+    "spo2": 93,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.0,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 455,
+    "timestamp": "2026-01-01T00:07:35Z",
+    "heart_rate": 114,
+    "hrv": 22,
+    "spo2": 93,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.0,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 456,
+    "timestamp": "2026-01-01T00:07:36Z",
+    "heart_rate": 113,
+    "hrv": 20,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 457,
+    "timestamp": "2026-01-01T00:07:37Z",
+    "heart_rate": 117,
+    "hrv": 18,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 458,
+    "timestamp": "2026-01-01T00:07:38Z",
+    "heart_rate": 116,
+    "hrv": 18,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 459,
+    "timestamp": "2026-01-01T00:07:39Z",
+    "heart_rate": 116,
+    "hrv": 17,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 460,
+    "timestamp": "2026-01-01T00:07:40Z",
+    "heart_rate": 119,
+    "hrv": 16,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.2,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 461,
+    "timestamp": "2026-01-01T00:07:41Z",
+    "heart_rate": 118,
+    "hrv": 17,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 462,
+    "timestamp": "2026-01-01T00:07:42Z",
+    "heart_rate": 118,
+    "hrv": 17,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 463,
+    "timestamp": "2026-01-01T00:07:43Z",
+    "heart_rate": 117,
+    "hrv": 17,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 464,
+    "timestamp": "2026-01-01T00:07:44Z",
+    "heart_rate": 117,
+    "hrv": 17,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.2,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 465,
+    "timestamp": "2026-01-01T00:07:45Z",
+    "heart_rate": 117,
+    "hrv": 17,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.2,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 466,
+    "timestamp": "2026-01-01T00:07:46Z",
+    "heart_rate": 118,
+    "hrv": 17,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 467,
+    "timestamp": "2026-01-01T00:07:47Z",
+    "heart_rate": 119,
+    "hrv": 17,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.2,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 468,
+    "timestamp": "2026-01-01T00:07:48Z",
+    "heart_rate": 118,
+    "hrv": 16,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 469,
+    "timestamp": "2026-01-01T00:07:49Z",
+    "heart_rate": 118,
+    "hrv": 16,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.2,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 470,
+    "timestamp": "2026-01-01T00:07:50Z",
+    "heart_rate": 119,
+    "hrv": 15,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 471,
+    "timestamp": "2026-01-01T00:07:51Z",
+    "heart_rate": 118,
+    "hrv": 16,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.2,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 472,
+    "timestamp": "2026-01-01T00:07:52Z",
+    "heart_rate": 117,
+    "hrv": 17,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 473,
+    "timestamp": "2026-01-01T00:07:53Z",
+    "heart_rate": 115,
+    "hrv": 17,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 474,
+    "timestamp": "2026-01-01T00:07:54Z",
+    "heart_rate": 119,
+    "hrv": 16,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.2,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 475,
+    "timestamp": "2026-01-01T00:07:55Z",
+    "heart_rate": 117,
+    "hrv": 16,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.2,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 476,
+    "timestamp": "2026-01-01T00:07:56Z",
+    "heart_rate": 116,
+    "hrv": 18,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 477,
+    "timestamp": "2026-01-01T00:07:57Z",
+    "heart_rate": 117,
+    "hrv": 17,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.2,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 478,
+    "timestamp": "2026-01-01T00:07:58Z",
+    "heart_rate": 117,
+    "hrv": 17,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.2,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 479,
+    "timestamp": "2026-01-01T00:07:59Z",
+    "heart_rate": 116,
+    "hrv": 18,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.2,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 480,
+    "timestamp": "2026-01-01T00:08:00Z",
+    "heart_rate": 117,
+    "hrv": 17,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 481,
+    "timestamp": "2026-01-01T00:08:01Z",
+    "heart_rate": 116,
+    "hrv": 18,
+    "spo2": 91,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.2,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 482,
+    "timestamp": "2026-01-01T00:08:02Z",
+    "heart_rate": 117,
+    "hrv": 18,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 483,
+    "timestamp": "2026-01-01T00:08:03Z",
+    "heart_rate": 116,
+    "hrv": 19,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 484,
+    "timestamp": "2026-01-01T00:08:04Z",
+    "heart_rate": 115,
+    "hrv": 20,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 485,
+    "timestamp": "2026-01-01T00:08:05Z",
+    "heart_rate": 117,
+    "hrv": 18,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.2,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 486,
+    "timestamp": "2026-01-01T00:08:06Z",
+    "heart_rate": 116,
+    "hrv": 19,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 487,
+    "timestamp": "2026-01-01T00:08:07Z",
+    "heart_rate": 119,
+    "hrv": 17,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 488,
+    "timestamp": "2026-01-01T00:08:08Z",
+    "heart_rate": 117,
+    "hrv": 18,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 489,
+    "timestamp": "2026-01-01T00:08:09Z",
+    "heart_rate": 119,
+    "hrv": 17,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.2,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 490,
+    "timestamp": "2026-01-01T00:08:10Z",
+    "heart_rate": 117,
+    "hrv": 17,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 491,
+    "timestamp": "2026-01-01T00:08:11Z",
+    "heart_rate": 118,
+    "hrv": 15,
+    "spo2": 91,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.2,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 492,
+    "timestamp": "2026-01-01T00:08:12Z",
+    "heart_rate": 118,
+    "hrv": 17,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.2,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 493,
+    "timestamp": "2026-01-01T00:08:13Z",
+    "heart_rate": 118,
+    "hrv": 16,
+    "spo2": 91,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.2,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 494,
+    "timestamp": "2026-01-01T00:08:14Z",
+    "heart_rate": 117,
+    "hrv": 16,
+    "spo2": 91,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.2,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 495,
+    "timestamp": "2026-01-01T00:08:15Z",
+    "heart_rate": 115,
+    "hrv": 19,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 496,
+    "timestamp": "2026-01-01T00:08:16Z",
+    "heart_rate": 117,
+    "hrv": 19,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 497,
+    "timestamp": "2026-01-01T00:08:17Z",
+    "heart_rate": 116,
+    "hrv": 17,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 498,
+    "timestamp": "2026-01-01T00:08:18Z",
+    "heart_rate": 117,
+    "hrv": 16,
+    "spo2": 91,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 499,
+    "timestamp": "2026-01-01T00:08:19Z",
+    "heart_rate": 116,
+    "hrv": 18,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.2,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 500,
+    "timestamp": "2026-01-01T00:08:20Z",
+    "heart_rate": 117,
+    "hrv": 16,
+    "spo2": 91,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 501,
+    "timestamp": "2026-01-01T00:08:21Z",
+    "heart_rate": 118,
+    "hrv": 15,
+    "spo2": 91,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 502,
+    "timestamp": "2026-01-01T00:08:22Z",
+    "heart_rate": 117,
+    "hrv": 17,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.2,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 503,
+    "timestamp": "2026-01-01T00:08:23Z",
+    "heart_rate": 118,
+    "hrv": 17,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 504,
+    "timestamp": "2026-01-01T00:08:24Z",
+    "heart_rate": 118,
+    "hrv": 15,
+    "spo2": 91,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.2,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 505,
+    "timestamp": "2026-01-01T00:08:25Z",
+    "heart_rate": 118,
+    "hrv": 16,
+    "spo2": 91,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.2,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 506,
+    "timestamp": "2026-01-01T00:08:26Z",
+    "heart_rate": 118,
+    "hrv": 17,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.2,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 507,
+    "timestamp": "2026-01-01T00:08:27Z",
+    "heart_rate": 118,
+    "hrv": 18,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.2,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 508,
+    "timestamp": "2026-01-01T00:08:28Z",
+    "heart_rate": 117,
+    "hrv": 19,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 509,
+    "timestamp": "2026-01-01T00:08:29Z",
+    "heart_rate": 118,
+    "hrv": 18,
+    "spo2": 91,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.2,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 510,
+    "timestamp": "2026-01-01T00:08:30Z",
+    "heart_rate": 117,
+    "hrv": 19,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 511,
+    "timestamp": "2026-01-01T00:08:31Z",
+    "heart_rate": 117,
+    "hrv": 17,
+    "spo2": 91,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.2,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 512,
+    "timestamp": "2026-01-01T00:08:32Z",
+    "heart_rate": 117,
+    "hrv": 17,
+    "spo2": 91,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.2,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 513,
+    "timestamp": "2026-01-01T00:08:33Z",
+    "heart_rate": 117,
+    "hrv": 18,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 514,
+    "timestamp": "2026-01-01T00:08:34Z",
+    "heart_rate": 116,
+    "hrv": 19,
+    "spo2": 91,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 515,
+    "timestamp": "2026-01-01T00:08:35Z",
+    "heart_rate": 116,
+    "hrv": 19,
+    "spo2": 91,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 516,
+    "timestamp": "2026-01-01T00:08:36Z",
+    "heart_rate": 117,
+    "hrv": 18,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 517,
+    "timestamp": "2026-01-01T00:08:37Z",
+    "heart_rate": 118,
+    "hrv": 18,
+    "spo2": 91,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.2,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 518,
+    "timestamp": "2026-01-01T00:08:38Z",
+    "heart_rate": 116,
+    "hrv": 18,
+    "spo2": 91,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 519,
+    "timestamp": "2026-01-01T00:08:39Z",
+    "heart_rate": 118,
+    "hrv": 17,
+    "spo2": 91,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.2,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 520,
+    "timestamp": "2026-01-01T00:08:40Z",
+    "heart_rate": 114,
+    "hrv": 18,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 521,
+    "timestamp": "2026-01-01T00:08:41Z",
+    "heart_rate": 116,
+    "hrv": 16,
+    "spo2": 91,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.2,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 522,
+    "timestamp": "2026-01-01T00:08:42Z",
+    "heart_rate": 118,
+    "hrv": 17,
+    "spo2": 91,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.2,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 523,
+    "timestamp": "2026-01-01T00:08:43Z",
+    "heart_rate": 116,
+    "hrv": 18,
+    "spo2": 91,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 524,
+    "timestamp": "2026-01-01T00:08:44Z",
+    "heart_rate": 117,
+    "hrv": 18,
+    "spo2": 91,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.2,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 525,
+    "timestamp": "2026-01-01T00:08:45Z",
+    "heart_rate": 117,
+    "hrv": 18,
+    "spo2": 91,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 526,
+    "timestamp": "2026-01-01T00:08:46Z",
+    "heart_rate": 117,
+    "hrv": 17,
+    "spo2": 91,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 527,
+    "timestamp": "2026-01-01T00:08:47Z",
+    "heart_rate": 117,
+    "hrv": 19,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.2,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 528,
+    "timestamp": "2026-01-01T00:08:48Z",
+    "heart_rate": 119,
+    "hrv": 17,
+    "spo2": 91,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.2,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 529,
+    "timestamp": "2026-01-01T00:08:49Z",
+    "heart_rate": 119,
+    "hrv": 16,
+    "spo2": 91,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.2,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 530,
+    "timestamp": "2026-01-01T00:08:50Z",
+    "heart_rate": 117,
+    "hrv": 18,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 531,
+    "timestamp": "2026-01-01T00:08:51Z",
+    "heart_rate": 117,
+    "hrv": 16,
+    "spo2": 91,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.2,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 532,
+    "timestamp": "2026-01-01T00:08:52Z",
+    "heart_rate": 118,
+    "hrv": 16,
+    "spo2": 91,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.2,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 533,
+    "timestamp": "2026-01-01T00:08:53Z",
+    "heart_rate": 117,
+    "hrv": 17,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 534,
+    "timestamp": "2026-01-01T00:08:54Z",
+    "heart_rate": 118,
+    "hrv": 15,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.2,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 535,
+    "timestamp": "2026-01-01T00:08:55Z",
+    "heart_rate": 118,
+    "hrv": 16,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 536,
+    "timestamp": "2026-01-01T00:08:56Z",
+    "heart_rate": 117,
+    "hrv": 16,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 537,
+    "timestamp": "2026-01-01T00:08:57Z",
+    "heart_rate": 115,
+    "hrv": 16,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 538,
+    "timestamp": "2026-01-01T00:08:58Z",
+    "heart_rate": 115,
+    "hrv": 17,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 539,
+    "timestamp": "2026-01-01T00:08:59Z",
+    "heart_rate": 115,
+    "hrv": 18,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 540,
+    "timestamp": "2026-01-01T00:09:00Z",
+    "heart_rate": 115,
+    "hrv": 18,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.0,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 541,
+    "timestamp": "2026-01-01T00:09:01Z",
+    "heart_rate": 114,
+    "hrv": 19,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.0,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 542,
+    "timestamp": "2026-01-01T00:09:02Z",
+    "heart_rate": 112,
+    "hrv": 19,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 543,
+    "timestamp": "2026-01-01T00:09:03Z",
+    "heart_rate": 112,
+    "hrv": 20,
+    "spo2": 93,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.0,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 544,
+    "timestamp": "2026-01-01T00:09:04Z",
+    "heart_rate": 111,
+    "hrv": 21,
+    "spo2": 93,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.0,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 545,
+    "timestamp": "2026-01-01T00:09:05Z",
+    "heart_rate": 109,
+    "hrv": 21,
+    "spo2": 92,
+    "sleep_hours": 7.4,
+    "core_temperature": 38.0,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 546,
+    "timestamp": "2026-01-01T00:09:06Z",
+    "heart_rate": 110,
+    "hrv": 21,
+    "spo2": 93,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.9,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 547,
+    "timestamp": "2026-01-01T00:09:07Z",
+    "heart_rate": 109,
+    "hrv": 21,
+    "spo2": 93,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.9,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 548,
+    "timestamp": "2026-01-01T00:09:08Z",
+    "heart_rate": 107,
+    "hrv": 21,
+    "spo2": 93,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.9,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 549,
+    "timestamp": "2026-01-01T00:09:09Z",
+    "heart_rate": 107,
+    "hrv": 22,
+    "spo2": 93,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.9,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 550,
+    "timestamp": "2026-01-01T00:09:10Z",
+    "heart_rate": 107,
+    "hrv": 22,
+    "spo2": 93,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.9,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 551,
+    "timestamp": "2026-01-01T00:09:11Z",
+    "heart_rate": 107,
+    "hrv": 22,
+    "spo2": 93,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.9,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 552,
+    "timestamp": "2026-01-01T00:09:12Z",
+    "heart_rate": 107,
+    "hrv": 23,
+    "spo2": 93,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 553,
+    "timestamp": "2026-01-01T00:09:13Z",
+    "heart_rate": 105,
+    "hrv": 25,
+    "spo2": 93,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 554,
+    "timestamp": "2026-01-01T00:09:14Z",
+    "heart_rate": 105,
+    "hrv": 25,
+    "spo2": 93,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 555,
+    "timestamp": "2026-01-01T00:09:15Z",
+    "heart_rate": 104,
+    "hrv": 24,
+    "spo2": 93,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 556,
+    "timestamp": "2026-01-01T00:09:16Z",
+    "heart_rate": 103,
+    "hrv": 25,
+    "spo2": 94,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 557,
+    "timestamp": "2026-01-01T00:09:17Z",
+    "heart_rate": 103,
+    "hrv": 25,
+    "spo2": 94,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.8,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 558,
+    "timestamp": "2026-01-01T00:09:18Z",
+    "heart_rate": 104,
+    "hrv": 27,
+    "spo2": 94,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.7,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 559,
+    "timestamp": "2026-01-01T00:09:19Z",
+    "heart_rate": 103,
+    "hrv": 27,
+    "spo2": 94,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.7,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 560,
+    "timestamp": "2026-01-01T00:09:20Z",
+    "heart_rate": 101,
+    "hrv": 27,
+    "spo2": 94,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.7,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 561,
+    "timestamp": "2026-01-01T00:09:21Z",
+    "heart_rate": 102,
+    "hrv": 27,
+    "spo2": 94,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.7,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 562,
+    "timestamp": "2026-01-01T00:09:22Z",
+    "heart_rate": 100,
+    "hrv": 27,
+    "spo2": 94,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.7,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 563,
+    "timestamp": "2026-01-01T00:09:23Z",
+    "heart_rate": 100,
+    "hrv": 27,
+    "spo2": 94,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.7,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 564,
+    "timestamp": "2026-01-01T00:09:24Z",
+    "heart_rate": 98,
+    "hrv": 27,
+    "spo2": 94,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.7,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 565,
+    "timestamp": "2026-01-01T00:09:25Z",
+    "heart_rate": 98,
+    "hrv": 28,
+    "spo2": 94,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.7,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 566,
+    "timestamp": "2026-01-01T00:09:26Z",
+    "heart_rate": 98,
+    "hrv": 28,
+    "spo2": 94,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.6,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 567,
+    "timestamp": "2026-01-01T00:09:27Z",
+    "heart_rate": 97,
+    "hrv": 30,
+    "spo2": 94,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.6,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 568,
+    "timestamp": "2026-01-01T00:09:28Z",
+    "heart_rate": 96,
+    "hrv": 31,
+    "spo2": 94,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.6,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 569,
+    "timestamp": "2026-01-01T00:09:29Z",
+    "heart_rate": 97,
+    "hrv": 30,
+    "spo2": 95,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.6,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 570,
+    "timestamp": "2026-01-01T00:09:30Z",
+    "heart_rate": 96,
+    "hrv": 32,
+    "spo2": 94,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.5,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 571,
+    "timestamp": "2026-01-01T00:09:31Z",
+    "heart_rate": 95,
+    "hrv": 31,
+    "spo2": 95,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.5,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 572,
+    "timestamp": "2026-01-01T00:09:32Z",
+    "heart_rate": 93,
+    "hrv": 31,
+    "spo2": 94,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.5,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 573,
+    "timestamp": "2026-01-01T00:09:33Z",
+    "heart_rate": 93,
+    "hrv": 31,
+    "spo2": 95,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.5,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 574,
+    "timestamp": "2026-01-01T00:09:34Z",
+    "heart_rate": 94,
+    "hrv": 32,
+    "spo2": 95,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.5,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 575,
+    "timestamp": "2026-01-01T00:09:35Z",
+    "heart_rate": 93,
+    "hrv": 33,
+    "spo2": 95,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.5,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 576,
+    "timestamp": "2026-01-01T00:09:36Z",
+    "heart_rate": 93,
+    "hrv": 35,
+    "spo2": 95,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.5,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 577,
+    "timestamp": "2026-01-01T00:09:37Z",
+    "heart_rate": 92,
+    "hrv": 34,
+    "spo2": 95,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.4,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 578,
+    "timestamp": "2026-01-01T00:09:38Z",
+    "heart_rate": 91,
+    "hrv": 36,
+    "spo2": 95,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.4,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 579,
+    "timestamp": "2026-01-01T00:09:39Z",
+    "heart_rate": 90,
+    "hrv": 36,
+    "spo2": 96,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.4,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 580,
+    "timestamp": "2026-01-01T00:09:40Z",
+    "heart_rate": 89,
+    "hrv": 36,
+    "spo2": 96,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.3,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 581,
+    "timestamp": "2026-01-01T00:09:41Z",
+    "heart_rate": 90,
+    "hrv": 37,
+    "spo2": 96,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.3,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 582,
+    "timestamp": "2026-01-01T00:09:42Z",
+    "heart_rate": 89,
+    "hrv": 38,
+    "spo2": 96,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.4,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 583,
+    "timestamp": "2026-01-01T00:09:43Z",
+    "heart_rate": 87,
+    "hrv": 38,
+    "spo2": 96,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.3,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 584,
+    "timestamp": "2026-01-01T00:09:44Z",
+    "heart_rate": 88,
+    "hrv": 37,
+    "spo2": 96,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.3,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 585,
+    "timestamp": "2026-01-01T00:09:45Z",
+    "heart_rate": 87,
+    "hrv": 38,
+    "spo2": 96,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.3,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 586,
+    "timestamp": "2026-01-01T00:09:46Z",
+    "heart_rate": 87,
+    "hrv": 39,
+    "spo2": 96,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.3,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 587,
+    "timestamp": "2026-01-01T00:09:47Z",
+    "heart_rate": 87,
+    "hrv": 37,
+    "spo2": 96,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.2,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 588,
+    "timestamp": "2026-01-01T00:09:48Z",
+    "heart_rate": 86,
+    "hrv": 38,
+    "spo2": 96,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.2,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 589,
+    "timestamp": "2026-01-01T00:09:49Z",
+    "heart_rate": 86,
+    "hrv": 39,
+    "spo2": 96,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.2,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 590,
+    "timestamp": "2026-01-01T00:09:50Z",
+    "heart_rate": 85,
+    "hrv": 39,
+    "spo2": 96,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.2,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 591,
+    "timestamp": "2026-01-01T00:09:51Z",
+    "heart_rate": 83,
+    "hrv": 38,
+    "spo2": 96,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.2,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 592,
+    "timestamp": "2026-01-01T00:09:52Z",
+    "heart_rate": 84,
+    "hrv": 40,
+    "spo2": 96,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.2,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 593,
+    "timestamp": "2026-01-01T00:09:53Z",
+    "heart_rate": 82,
+    "hrv": 40,
+    "spo2": 96,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 594,
+    "timestamp": "2026-01-01T00:09:54Z",
+    "heart_rate": 81,
+    "hrv": 41,
+    "spo2": 97,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 595,
+    "timestamp": "2026-01-01T00:09:55Z",
+    "heart_rate": 82,
+    "hrv": 40,
+    "spo2": 96,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 596,
+    "timestamp": "2026-01-01T00:09:56Z",
+    "heart_rate": 81,
+    "hrv": 41,
+    "spo2": 97,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 597,
+    "timestamp": "2026-01-01T00:09:57Z",
+    "heart_rate": 80,
+    "hrv": 41,
+    "spo2": 97,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.0,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 598,
+    "timestamp": "2026-01-01T00:09:58Z",
+    "heart_rate": 79,
+    "hrv": 41,
+    "spo2": 97,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.1,
+    "exercise_minutes": 24
+  },
+  {
+    "index": 599,
+    "timestamp": "2026-01-01T00:09:59Z",
+    "heart_rate": 79,
+    "hrv": 42,
+    "spo2": 97,
+    "sleep_hours": 7.4,
+    "core_temperature": 37.0,
+    "exercise_minutes": 24
+  }
+]

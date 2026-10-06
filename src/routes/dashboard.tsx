@@ -45,10 +45,14 @@ function Dashboard() {
   const [focus, setFocus] = useState<SignalKey>("heart_rate");
 
   // ------------------------------------------------------------------ //
-  // Multi-signal fullscreen state — auto-triggers on new MULTI_SIGNAL   //
-  // alert, with re-trigger protection (same alert_id never fires twice). //
+  // Multi-signal fullscreen state — condition-based trigger: opens     //
+  // when multi-signal deviation occurs, stays open while deviation    //
+  // persists, and automatically closes when vitals return to baseline. //
   // ------------------------------------------------------------------ //
-  const { isOpen: alertOpen, activeAlert, dismiss, manualOpen } = useMultiSignalAlert(alerts);
+  const { isOpen: alertOpen, activeAlert, dismiss, manualOpen } = useMultiSignalAlert(
+    alerts,
+    deviatingNow
+  );
 
   // Compute the set of signals involved in the latest MULTI_SIGNAL alert
   const latestMulti = alerts.find((a) => a.rule === "MULTI_SIGNAL_48H") ?? null;
@@ -67,7 +71,14 @@ function Dashboard() {
     <AppShell title="🚀 Crew Health Monitor" subtitle="Live Mission AURORA-01 Telemetry & Biometrics">
       {/* FullScreen Multi-Signal Alert Overlay */}
       {alertOpen && activeAlert && (
-        <MultiSignalAlert alert={activeAlert} onDismiss={dismiss} />
+        <MultiSignalAlert
+          alert={activeAlert}
+          onDismiss={dismiss}
+          deviatingNow={deviatingNow}
+          current={current}
+          baselines={baselines}
+          zScores={zScores}
+        />
       )}
 
       {connection !== "connected" && (

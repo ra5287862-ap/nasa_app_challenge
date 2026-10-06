@@ -54,7 +54,7 @@ function SidebarContent({ onNavigate }: { onNavigate?: () => void }) {
 
       <nav className="flex flex-1 flex-col gap-1" aria-label="Main navigation">
         {NAV.map(({ to, label, icon: Icon }) => {
-          const active = to === "/" ? pathname === "/" : pathname.startsWith(to);
+          const active = pathname.startsWith(to);
           return (
             <Link
               key={to}

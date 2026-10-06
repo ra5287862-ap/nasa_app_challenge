@@ -1,15 +1,26 @@
 import { useEffect } from "react";
-import { X, AlertTriangle, Layers, Activity } from "lucide-react";
-import type { HealthAlert } from "@/lib/compute";
-import { SIGNAL_BY_KEY } from "@/lib/signals";
+import { X, AlertTriangle, Layers, Activity, Radio } from "lucide-react";
+import type { Baseline, HealthAlert, VitalSample } from "@/lib/compute";
+import { SIGNAL_BY_KEY, type SignalKey } from "@/lib/signals";
 import { formatDateUtc, missionDay } from "@/lib/compute";
 
 interface MultiSignalAlertProps {
   alert: HealthAlert;
   onDismiss: () => void;
+  deviatingNow?: SignalKey[];
+  current?: VitalSample | null;
+  baselines?: Record<SignalKey, Baseline>;
+  zScores?: Record<SignalKey, number>;
 }
 
-export function MultiSignalAlert({ alert, onDismiss }: MultiSignalAlertProps) {
+export function MultiSignalAlert({
+  alert,
+  onDismiss,
+  deviatingNow = [],
+  current,
+  baselines,
+  zScores,
+}: MultiSignalAlertProps) {
   // Close on Escape key — accessibility requirement
   useEffect(() => {
     const handler = (e: KeyboardEvent) => {
@@ -26,6 +37,8 @@ export function MultiSignalAlert({ alert, onDismiss }: MultiSignalAlertProps) {
       document.body.style.overflow = "";
     };
   }, []);
+
+  const currentTimestamp = current?.timestamp ?? alert.timestamp;
 
   return (
     /* Backdrop */
@@ -47,10 +60,19 @@ export function MultiSignalAlert({ alert, onDismiss }: MultiSignalAlertProps) {
               <Layers className="size-5" aria-hidden />
             </span>
             <div>
-              <h2 className="fullscreen-alert-title">MULTI-SIGNAL ALERT</h2>
+              <div className="flex flex-wrap items-center gap-2">
+                <h2 className="fullscreen-alert-title">MULTI-SIGNAL ALERT</h2>
+                <span className="inline-flex items-center gap-1.5 rounded-full border border-alert/40 bg-alert/20 px-2 py-0.5 text-[11px] font-semibold tracking-wider text-alert uppercase">
+                  <span className="size-1.5 rounded-full bg-alert animate-ping" />
+                  Active Deviation
+                </span>
+              </div>
               <p className="fullscreen-alert-subtitle">
-                Day {missionDay(alert.timestamp)} ·{" "}
-                {formatDateUtc(alert.timestamp)}
+                Day {missionDay(currentTimestamp)} ·{" "}
+                {formatDateUtc(currentTimestamp)}{" "}
+                <span className="text-warning/90 font-medium">
+                  • Auto-closes when all signals normalize
+                </span>
               </p>
             </div>
           </div>
@@ -64,36 +86,75 @@ export function MultiSignalAlert({ alert, onDismiss }: MultiSignalAlertProps) {
         </header>
 
         {/* Description */}
-        <p className="fullscreen-alert-desc">
-          <AlertTriangle className="inline size-4 mr-1.5 text-alert" aria-hidden />
-          {alert.signals.length} health signals are simultaneously deviating
-          from their personal baselines — immediate review recommended.
-        </p>
+        <div className="fullscreen-alert-desc flex items-center justify-between gap-3">
+          <p className="flex items-center">
+            <AlertTriangle className="inline size-4 mr-1.5 text-alert shrink-0" aria-hidden />
+            <span>
+              {alert.signals.length} health signals deviated from their personal baselines —
+              monitoring continuously until recovery.
+            </span>
+          </p>
+          <span className="hidden sm:inline-flex items-center gap-1 rounded bg-muted/60 px-2 py-0.5 text-xs text-muted-foreground whitespace-nowrap">
+            <Radio className="size-3 text-emerald-400 animate-pulse" />
+            Live Stream
+          </span>
+        </div>
 
         {/* Signals grid */}
         <div className="fullscreen-alert-signals">
           {alert.signals.map((s) => {
             const meta = SIGNAL_BY_KEY[s.signal];
-            const aboveBaseline = s.value > s.baseline_mean;
+            if (!meta) return null;
+
+            // Use live values when available, fallback to snapshot
+            const liveValue = current && typeof current[s.signal] === "number"
+              ? (current[s.signal] as number)
+              : s.value;
+
+            const liveBaseline = baselines ? baselines[s.signal] : null;
+            const liveMean = liveBaseline ? liveBaseline.mean : s.baseline_mean;
+            const liveZ = zScores && typeof zScores[s.signal] === "number"
+              ? zScores[s.signal]
+              : s.z_score;
+
+            const isCurrentlyDeviating = deviatingNow.length > 0
+              ? deviatingNow.includes(s.signal)
+              : Math.abs(liveZ) >= (alert.threshold || 3.0);
+
+            const aboveBaseline = liveValue > liveMean;
+
             return (
-              <div key={s.signal} className="fullscreen-signal-card">
+              <div
+                key={s.signal}
+                className={`fullscreen-signal-card transition-all duration-300 ${
+                  !isCurrentlyDeviating
+                    ? "border-emerald-500/30 bg-emerald-950/15"
+                    : ""
+                }`}
+              >
                 <div className="fullscreen-signal-header">
                   <span className="fullscreen-signal-icon">{meta.icon}</span>
                   <span className="fullscreen-signal-label">{meta.label}</span>
-                  <span className="fullscreen-signal-badge">
-                    DEVIATION
+                  <span
+                    className={`fullscreen-signal-badge ${
+                      !isCurrentlyDeviating
+                        ? "border-emerald-500/40 bg-emerald-500/20 text-emerald-300"
+                        : ""
+                    }`}
+                  >
+                    {isCurrentlyDeviating ? "DEVIATION" : "NORMALIZED"}
                   </span>
                 </div>
 
                 <p className="fullscreen-signal-value">
-                  {s.value.toFixed(meta.decimals)}
+                  {liveValue.toFixed(meta.decimals)}
                   <span className="fullscreen-signal-unit">{meta.unit}</span>
                 </p>
 
                 <div className="fullscreen-signal-baseline-row">
                   <Activity className="size-3.5 shrink-0 text-muted-foreground" aria-hidden />
                   <span>
-                    Baseline {s.baseline_mean.toFixed(meta.decimals)} {meta.unit}
+                    Baseline {liveMean.toFixed(meta.decimals)} {meta.unit}
                   </span>
                   <span
                     className={
@@ -108,14 +169,22 @@ export function MultiSignalAlert({ alert, onDismiss }: MultiSignalAlertProps) {
                 </div>
 
                 <div className="fullscreen-signal-zscore-bar-wrap">
-                  <span className="fullscreen-signal-zscore-label">
-                    z-score {s.z_score.toFixed(2)}σ
-                  </span>
+                  <div className="flex items-center justify-between text-xs">
+                    <span className="fullscreen-signal-zscore-label">
+                      z-score {liveZ.toFixed(2)}σ
+                    </span>
+                    {!isCurrentlyDeviating && (
+                      <span className="text-[11px] text-emerald-400 font-medium">
+                        Within baseline
+                      </span>
+                    )}
+                  </div>
                   <div className="fullscreen-signal-zscore-track">
                     <div
-                      className="fullscreen-signal-zscore-fill"
+                      className="fullscreen-signal-zscore-fill transition-all duration-300"
                       style={{
-                        width: `${Math.min(100, (Math.abs(s.z_score) / 6) * 100)}%`,
+                        width: `${Math.min(100, (Math.abs(liveZ) / 6) * 100)}%`,
+                        backgroundColor: !isCurrentlyDeviating ? "rgb(52 211 153)" : undefined,
                       }}
                     />
                   </div>
@@ -128,9 +197,8 @@ export function MultiSignalAlert({ alert, onDismiss }: MultiSignalAlertProps) {
         {/* Footer */}
         <footer className="fullscreen-alert-footer">
           <p className="fullscreen-alert-disclaimer">
-            Statistical monitoring only. This alert is based on personal
-            baseline deviation and does not constitute medical diagnosis or
-            treatment advice.
+            Continuous anomaly monitoring. This panel will automatically close once vital
+            signs return within baseline thresholds (±{alert.threshold.toFixed(1)}σ).
           </p>
           <div className="fullscreen-alert-actions">
             <button
@@ -147,3 +215,4 @@ export function MultiSignalAlert({ alert, onDismiss }: MultiSignalAlertProps) {
     </div>
   );
 }
+
