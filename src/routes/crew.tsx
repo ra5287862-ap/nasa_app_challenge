@@ -28,29 +28,42 @@ function CrewProfile() {
   const day = current ? missionDay(current.timestamp) : 1;
 
   const facts = [
-    { label: "Crew ID", value: CREW_ID },
-    { label: "Mission", value: MISSION_NAME },
-    { label: "Mission day", value: String(day) },
-    { label: "Monitoring", value: "ACTIVE" },
-    { label: "Data", value: "SIMULATED" },
+    { label: "Astronaut", value: "Alex" },
+    { label: "Assignment", value: "Mars Transit Mission Specialist" },
+    { label: "Clinical Facility", value: "Months away from Earth" },
+    { label: "Baseline Model", value: "Personal Longitudinal" },
+    { label: "Telemetry Mode", value: "🟢 SIMULATED TELEMETRY" },
   ];
 
   return (
-    <AppShell title="Crew Profile">
+    <AppShell title="Crew Profile — Astronaut Alex">
+      {/* Story Narrative Box */}
+      <div className="mb-6 rounded-xl border border-primary/30 bg-primary/10 p-4 backdrop-blur-sm">
+        <h3 className="text-sm font-semibold text-foreground flex items-center gap-2">
+          <span>🧑‍🚀</span> Individualized Spaceflight Monitoring Philosophy
+        </h3>
+        <p className="mt-1 text-xs text-muted-foreground leading-relaxed">
+          Alex is millions of kilometers from Earth, months away from any hospital or clinical team.
+          Every astronaut has unique physiological setpoints: for example, Alex’s normal resting HRV is
+          <strong> ~48 ms</strong>, whereas another crew member’s might naturally sit at <strong>30–35 ms</strong>.
+          The console never compares Alex to other astronauts — detection is strictly individualized to Alex's personal baseline.
+        </p>
+      </div>
+
       <section className="glass-panel grid gap-4 p-5 sm:grid-cols-2 xl:grid-cols-5">
         {facts.map((f) => (
           <div key={f.label}>
             <p className="text-xs uppercase tracking-wider text-muted-foreground">
               {f.label}
             </p>
-            <p className="mt-1 font-display text-lg">{f.value}</p>
+            <p className="mt-1 font-display text-sm font-semibold">{f.value}</p>
           </div>
         ))}
       </section>
 
       <section className="glass-panel mt-6 overflow-hidden p-5">
         <h2 className="font-display text-sm uppercase tracking-wider text-muted-foreground">
-          Personal baseline overview
+          Alex's Personal baseline overview
         </h2>
         <div className="mt-4 overflow-x-auto">
           <table className="w-full min-w-[520px] text-sm">

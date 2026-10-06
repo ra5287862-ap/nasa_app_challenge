@@ -68,11 +68,9 @@ export function MultiSignalAlert({
                 </span>
               </div>
               <p className="fullscreen-alert-subtitle">
-                Day {missionDay(currentTimestamp)} ·{" "}
-                {formatDateUtc(currentTimestamp)}{" "}
-                <span className="text-warning/90 font-medium">
-                  • Auto-closes when all signals normalize
-                </span>
+                Day {missionDay(currentTimestamp)} · {formatDateUtc(currentTimestamp)}{" "}
+                <span className="text-primary font-medium">• Astronaut Alex</span>{" "}
+                <span className="text-warning/90 font-medium">• Auto-closes upon normalization</span>
               </p>
             </div>
           </div>
@@ -90,8 +88,8 @@ export function MultiSignalAlert({
           <p className="flex items-center">
             <AlertTriangle className="inline size-4 mr-1.5 text-alert shrink-0" aria-hidden />
             <span>
-              {alert.signals.length} health signals deviated from their personal baselines —
-              monitoring continuously until recovery.
+              {alert.signals.length} health signals deviated from Alex&apos;s personal baseline —
+              monitoring continuously until recovery. Nothing is diagnosed; everything is evidenced.
             </span>
           </p>
           <span className="hidden sm:inline-flex items-center gap-1 rounded bg-muted/60 px-2 py-0.5 text-xs text-muted-foreground whitespace-nowrap">

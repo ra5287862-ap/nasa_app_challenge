@@ -26,10 +26,28 @@ export const Route = createFileRoute("/signals")({
 });
 
 function SignalsPage() {
-  const { history, baselines, zScores, config, current } = useMission();
+  const { history, baselines, zScores, config, current, deviatingNow } = useMission();
 
   return (
-    <AppShell title="Live Signals">
+    <AppShell title="Live Health Signals — Astronaut Alex">
+      {/* Story Narrative Box */}
+      <div className="mb-4 rounded-xl border border-primary/30 bg-primary/10 p-3.5 backdrop-blur-sm">
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <div>
+            <p className="text-xs font-semibold text-foreground">
+              Alex's 6 Monitored Physiological Signals vs. Individual Baseline Bands
+            </p>
+            <p className="text-[11px] text-muted-foreground">
+              The shaded band behind each curve represents Alex’s personal baseline range (mean ± {config.threshold}σ).
+              Alerts fire only when measurements breach Alex&apos;s own baseline limits.
+            </p>
+          </div>
+          <span className="rounded-lg border border-border/80 bg-panel px-2.5 py-1 text-xs font-mono text-primary font-medium">
+            Threshold: ±{config.threshold.toFixed(1)}σ
+          </span>
+        </div>
+      </div>
+
       <div className="mb-6 flex justify-end">
         <ReplayControls />
       </div>
@@ -48,7 +66,11 @@ function SignalsPage() {
                   </span>
                 </p>
               </div>
-              <StatusPill z={zScores[s.key]} threshold={config.threshold} />
+              <StatusPill
+                z={zScores[s.key]}
+                threshold={config.threshold}
+                isMultiSignal={deviatingNow.length >= 2 && deviatingNow.includes(s.key)}
+              />
             </header>
             <div className="mt-3">
               <SignalChart

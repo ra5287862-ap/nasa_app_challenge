@@ -21,8 +21,9 @@ import {
 import { SIGNALS, type SignalKey } from "./signals";
 import { FIXTURE_SAMPLES, ANOMALY_INDEX as FIXTURE_ANOMALY_INDEX } from "./vitals-fixture";
 
-export const CREW_ID = "CREW-01";
-export const MISSION_NAME = "AURORA-01";
+export const CREW_ID = "CREW-01 (Alex)";
+export const CREW_NAME = "Alex";
+export const MISSION_NAME = "Mars Transit Mission (AURORA-01)";
 const TOTAL_POINTS_SIMULATED = 720;
 const WARMUP_SIMULATED = 200;
 const WARMUP_FIXTURE = 60; // 1 minute baseline window for 600s fixture

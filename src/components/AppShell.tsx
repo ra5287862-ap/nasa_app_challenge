@@ -28,11 +28,11 @@ const NAV = [
 export function SimulatedBadge() {
   return (
     <span
-      className="inline-flex items-center gap-2 rounded-full border border-warning/40 bg-warning/10 px-3 py-1 text-xs font-medium tracking-wide text-warning"
-      aria-label="Simulated data. Not real medical measurements."
+      className="inline-flex items-center gap-2 rounded-full border border-emerald-500/50 bg-emerald-500/15 px-3 py-1 text-xs font-bold tracking-wider text-emerald-400 shadow-sm"
+      aria-label="Simulated Telemetry. Not real medical measurements."
     >
-      <span className="status-dot bg-warning text-warning" aria-hidden />
-      SIMULATED DATA
+      <span className="size-2 rounded-full bg-emerald-400 animate-pulse" aria-hidden />
+      🟢 SIMULATED TELEMETRY
     </span>
   );
 }
@@ -146,9 +146,14 @@ export function AppShell({
               <Menu className="size-5" aria-hidden />
             </button>
             <div className="min-w-0 flex-1">
-              <h1 className="truncate font-display text-base font-semibold sm:text-lg">
-                {title}
-              </h1>
+              <div className="flex flex-wrap items-center gap-2">
+                <h1 className="truncate font-display text-base font-semibold sm:text-lg">
+                  {title}
+                </h1>
+                <span className="hidden md:inline-flex items-center rounded-md border border-primary/30 bg-primary/10 px-2 py-0.5 text-[11px] font-medium text-primary">
+                  Astronaut Alex • Mars Transit
+                </span>
+              </div>
               <p className="truncate text-xs text-muted-foreground">
                 {subtitle ?? `Mission ${MISSION_NAME} · Crew ${CREW_ID} · Mission day ${day}`}
               </p>
@@ -158,8 +163,16 @@ export function AppShell({
         </header>
         <main className="px-4 py-6 sm:px-6">{children}</main>
         <footer className="px-4 pb-10 text-xs text-muted-foreground sm:px-6">
-          Monitoring and explanation tool only. It reports deviations from personal
-          baselines and does not provide medical diagnosis or treatment advice.
+          <div className="flex flex-col gap-1 border-t border-border/40 pt-4">
+            <p className="font-medium text-foreground/80">
+              ⚡ Core Philosophy: Nothing is diagnosed; everything is evidenced.
+            </p>
+            <p>
+              Detection is deterministic code in Python (<code className="text-primary font-mono text-[11px]">src/compute/detect.py</code>).
+              AI is strictly constrained to evidence citation from peer-reviewed databases (NASA OSDR / GeneLab / NTRS).
+              No medical diagnosis or clinical treatments provided.
+            </p>
+          </div>
         </footer>
       </div>
     </div>

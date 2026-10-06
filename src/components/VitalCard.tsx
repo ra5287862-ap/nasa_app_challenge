@@ -27,14 +27,14 @@ function StatusBadge({ status }: { status: CardStatus }) {
       cls: "border-normal/40 bg-normal/15 text-normal",
     },
     deviation: {
-      label: "Deviation",
+      label: "DEVIATION",
       icon: "⚠",
-      cls: "border-warning/40 bg-warning/15 text-warning",
+      cls: "border-warning/50 bg-warning/20 text-warning font-semibold tracking-wide",
     },
     multi_signal: {
-      label: "Multi-Signal",
+      label: "MULTI-SIGNAL",
       icon: "⚡",
-      cls: "border-alert/60 bg-alert/20 text-alert vital-card-multisignal-badge",
+      cls: "border-alert/60 bg-alert/20 text-alert vital-card-multisignal-badge font-semibold tracking-wide",
     },
   }[status];
 

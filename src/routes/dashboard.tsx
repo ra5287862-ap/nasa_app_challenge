@@ -68,7 +68,10 @@ function Dashboard() {
   );
 
   return (
-    <AppShell title="🚀 Crew Health Monitor" subtitle="Live Mission AURORA-01 Telemetry & Biometrics">
+    <AppShell
+      title="🚀 Crew Health Monitoring Console"
+      subtitle="Astronaut Alex • Mars Transit (Deep Space) • Personal Baseline Telemetry"
+    >
       {/* FullScreen Multi-Signal Alert Overlay */}
       {alertOpen && activeAlert && (
         <MultiSignalAlert
@@ -88,6 +91,33 @@ function Dashboard() {
       )}
 
       <div className="mb-6 flex flex-col gap-3">
+        {/* Story & Philosophy Banner */}
+        <div className="rounded-xl border border-primary/30 bg-primary/10 p-3.5 backdrop-blur-sm">
+          <div className="flex flex-wrap items-center justify-between gap-3">
+            <div className="flex items-center gap-2.5">
+              <span className="grid size-7 place-items-center rounded-lg bg-primary/25 text-primary font-bold text-xs shadow-sm">
+                ★
+              </span>
+              <div>
+                <p className="text-xs font-semibold text-foreground">
+                  Mars Mission Telemetry — Astronaut Alex
+                </p>
+                <p className="text-[11px] text-muted-foreground">
+                  Months away from Earth clinical facilities. Comparing Alex strictly to Alex's personal baseline.
+                </p>
+              </div>
+            </div>
+            <div className="flex flex-wrap items-center gap-2 text-[11px]">
+              <span className="inline-flex items-center gap-1.5 rounded-lg bg-card/80 px-2.5 py-1 text-primary border border-primary/30 font-medium">
+                👨‍🔬 Character 1: Deterministic Rule Code (<code className="text-[10px]">src/compute/detect.py</code>)
+              </span>
+              <span className="inline-flex items-center gap-1.5 rounded-lg bg-card/80 px-2.5 py-1 text-foreground/90 border border-border font-medium">
+                🤖 Character 2: AI Explanation Agent (OSDR Linked)
+              </span>
+            </div>
+          </div>
+        </div>
+
         <ReplayControls />
 
         <div className="flex flex-wrap items-center justify-between gap-2 rounded-lg border border-border/60 bg-muted/30 px-3.5 py-2 text-xs text-muted-foreground">
@@ -97,15 +127,15 @@ function Dashboard() {
               OSDR Metadata Cache v1.0.0
             </span>
             <span className="text-border">|</span>
-            <span>Fixture: <strong className="text-foreground">600 rows (10m @ 1Hz)</strong></span>
+            <span>Fixture: <strong className="text-foreground">demo_fixtures/vitals.json (600s @ 1Hz)</strong></span>
             <span className="text-border">|</span>
             <span>Seed: <strong className="text-foreground">42</strong> (Deterministic)</span>
           </div>
 
           <div className="flex items-center gap-2">
-            <span>Detection: <strong className="text-primary">Rolling Baseline (z ≥ {config.threshold.toFixed(1)})</strong></span>
+            <span>Detection: <strong className="text-primary">Personal Baseline (z ≥ {config.threshold.toFixed(1)}σ)</strong></span>
             <span className="text-border">|</span>
-            <span className="text-warning">Anomaly Trigger: <strong>07:30 (Idx 450)</strong></span>
+            <span className="text-warning">Planted Anomaly: <strong>07:30 (Idx 450)</strong></span>
           </div>
         </div>
       </div>
@@ -130,7 +160,7 @@ function Dashboard() {
                 z={zScores[s.key]}
                 threshold={config.threshold}
                 history={history}
-                isMultiSignal={multiSignalKeys.has(s.key)}
+                isMultiSignal={deviatingNow.length >= 2 && deviatingNow.includes(s.key)}
               />
             ))}
           </section>

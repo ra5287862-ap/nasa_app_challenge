@@ -45,7 +45,7 @@ export function ReplayControls() {
           {isFixtureMode && (
             <button
               onClick={jumpToAnomaly}
-              title="Jump to 07:30 (Index 450) where the multi-signal anomaly triggers"
+              title="Jump to 07:30 (Index 450) where Alex's planted multi-signal anomaly begins"
               className={`inline-flex items-center gap-1.5 rounded-lg border px-3 py-1.5 text-xs font-semibold transition-all ${
                 isAtAnomaly
                   ? "border-destructive/80 bg-destructive/20 text-destructive shadow-sm animate-pulse"
@@ -53,7 +53,7 @@ export function ReplayControls() {
               }`}
             >
               <AlertTriangle className="size-3.5" aria-hidden />
-              <span>Jump to 07:30 (Anomaly)</span>
+              <span>⚡ Jump to Anomaly (Alex @ 07:30)</span>
             </button>
           )}
 
