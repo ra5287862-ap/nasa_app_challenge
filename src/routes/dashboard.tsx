@@ -91,33 +91,6 @@ function Dashboard() {
       )}
 
       <div className="mb-6 flex flex-col gap-3">
-        {/* Story & Philosophy Banner */}
-        <div className="rounded-xl border border-primary/30 bg-primary/10 p-3.5 backdrop-blur-sm">
-          <div className="flex flex-wrap items-center justify-between gap-3">
-            <div className="flex items-center gap-2.5">
-              <span className="grid size-7 place-items-center rounded-lg bg-primary/25 text-primary font-bold text-xs shadow-sm">
-                ★
-              </span>
-              <div>
-                <p className="text-xs font-semibold text-foreground">
-                  Mars Mission Telemetry — Astronaut Alex
-                </p>
-                <p className="text-[11px] text-muted-foreground">
-                  Months away from Earth clinical facilities. Comparing Alex strictly to Alex's personal baseline.
-                </p>
-              </div>
-            </div>
-            <div className="flex flex-wrap items-center gap-2 text-[11px]">
-              <span className="inline-flex items-center gap-1.5 rounded-lg bg-card/80 px-2.5 py-1 text-primary border border-primary/30 font-medium">
-                👨‍🔬 Character 1: Deterministic Rule Code (<code className="text-[10px]">src/compute/detect.py</code>)
-              </span>
-              <span className="inline-flex items-center gap-1.5 rounded-lg bg-card/80 px-2.5 py-1 text-foreground/90 border border-border font-medium">
-                🤖 Character 2: AI Explanation Agent (OSDR Linked)
-              </span>
-            </div>
-          </div>
-        </div>
-
         <ReplayControls />
 
         <div className="flex flex-wrap items-center justify-between gap-2 rounded-lg border border-border/60 bg-muted/30 px-3.5 py-2 text-xs text-muted-foreground">
