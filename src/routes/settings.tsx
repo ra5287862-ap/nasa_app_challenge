@@ -27,23 +27,23 @@ function SettingsPage() {
 
   return (
     <AppShell title="Settings">
-      <section className="glass-panel max-w-2xl space-y-6 p-5">
+      <section className="bg-[#08131B]/25 border border-cyan-500/20 rounded-xl max-w-2xl space-y-6 p-5 shadow-[0_4px_24px_-4px_rgba(5,10,15,0.7)] backdrop-blur-md">
         <div>
-          <h2 className="font-display text-sm uppercase tracking-wider text-muted-foreground">
-            Replay
+          <h2 className="font-mono text-xs uppercase tracking-wider text-[#7F98A3]">
+            Replay Controls
           </h2>
           <div className="mt-3">
             <ReplayControls />
           </div>
         </div>
 
-        <div className="space-y-4 border-t border-border/60 pt-5">
-          <h2 className="font-display text-sm uppercase tracking-wider text-muted-foreground">
-            Detection
+        <div className="space-y-4 border-t border-cyan-500/20 pt-5 font-mono">
+          <h2 className="text-xs uppercase tracking-wider text-cyan-400 font-semibold">
+            Detection Configuration
           </h2>
 
-          <label className="block text-sm">
-            Z-score threshold: <span className="tabular-nums">{config.threshold.toFixed(1)}</span>
+          <label className="block text-sm text-[#E5EEF2]">
+            Z-score threshold: <span className="tabular-nums font-bold text-cyan-300">{config.threshold.toFixed(1)}σ</span>
             <input
               type="range"
               min={2}
@@ -53,13 +53,13 @@ function SettingsPage() {
               onChange={(e) =>
                 setConfig({ ...config, threshold: Number(e.target.value) })
               }
-              className="mt-2 w-full accent-[var(--color-primary)]"
+              className="mt-2 w-full accent-cyan-400 bg-[#0B1821]"
             />
           </label>
 
-          <label className="block text-sm">
+          <label className="block text-sm text-[#E5EEF2]">
             Baseline window:{" "}
-            <span className="tabular-nums">{config.baselineWindow / 2} hours</span>
+            <span className="tabular-nums font-bold text-cyan-300">{config.baselineWindow / 2} hours</span>
             <input
               type="range"
               min={48}
@@ -69,7 +69,7 @@ function SettingsPage() {
               onChange={(e) =>
                 setConfig({ ...config, baselineWindow: Number(e.target.value) })
               }
-              className="mt-2 w-full accent-[var(--color-primary)]"
+              className="mt-2 w-full accent-cyan-400 bg-[#0B1821]"
             />
           </label>
 

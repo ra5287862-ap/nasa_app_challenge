@@ -93,28 +93,28 @@ function Dashboard() {
       <div className="mb-6 flex flex-col gap-3">
         <ReplayControls />
 
-        <div className="flex flex-wrap items-center justify-between gap-2 rounded-lg border border-border/60 bg-muted/30 px-3.5 py-2 text-xs text-muted-foreground">
+        <div className="flex flex-wrap items-center justify-between gap-2 rounded-lg border border-cyan-500/20 bg-[#040A10]/35 px-3.5 py-2 text-xs font-mono text-[#7F98A3] backdrop-blur-md">
           <div className="flex flex-wrap items-center gap-3">
-            <span className="flex items-center gap-1.5 text-foreground font-medium">
-              <span className="size-2 rounded-full bg-emerald-500 animate-pulse" />
+            <span className="flex items-center gap-1.5 text-[#E5EEF2] font-semibold">
+              <span className="size-2 rounded-full bg-emerald-400 animate-pulse shadow-[0_0_8px_rgba(34,197,94,0.8)]" />
               OSDR Metadata Cache v1.0.0
             </span>
-            <span className="text-border">|</span>
-            <span>Fixture: <strong className="text-foreground">demo_fixtures/vitals.json (600s @ 1Hz)</strong></span>
-            <span className="text-border">|</span>
-            <span>Seed: <strong className="text-foreground">42</strong> (Deterministic)</span>
+            <span className="text-cyan-500/30">|</span>
+            <span>Fixture: <strong className="text-cyan-300">demo_fixtures/vitals.json (600s @ 1Hz)</strong></span>
+            <span className="text-cyan-500/30">|</span>
+            <span>Seed: <strong className="text-[#E5EEF2]">42</strong> (Deterministic)</span>
           </div>
 
           <div className="flex items-center gap-2">
-            <span>Detection: <strong className="text-primary">Personal Baseline (z ≥ {config.threshold.toFixed(1)}σ)</strong></span>
-            <span className="text-border">|</span>
-            <span className="text-warning">Planted Anomaly: <strong>07:30 (Idx 450)</strong></span>
+            <span>Detection: <strong className="text-cyan-400">Personal Baseline (z ≥ {config.threshold.toFixed(1)}σ)</strong></span>
+            <span className="text-cyan-500/30">|</span>
+            <span className="text-amber-400 font-bold">Planted Anomaly: 07:30 (Idx 450)</span>
           </div>
         </div>
       </div>
 
       {!current ? (
-        <p className="text-sm text-muted-foreground">No telemetry available.</p>
+        <p className="text-sm text-[#7F98A3] font-mono">No telemetry available.</p>
       ) : (
         <>
           {/* ---------------------------------------------------------------- */}
@@ -140,7 +140,7 @@ function Dashboard() {
 
           <section className="glass-panel mt-6 p-5">
             <div className="flex flex-wrap items-center justify-between gap-3">
-              <h2 className="font-display text-sm uppercase tracking-wider text-muted-foreground">
+              <h2 className="font-display text-sm uppercase tracking-wider text-[#7F98A3]">
                 Live health signals
               </h2>
               <div className="flex flex-wrap gap-1.5">
@@ -149,10 +149,10 @@ function Dashboard() {
                     key={s.key}
                     onClick={() => setFocus(s.key)}
                     aria-pressed={focus === s.key}
-                    className={`rounded-lg border px-2.5 py-1 text-xs transition-colors ${
+                    className={`rounded-lg border px-2.5 py-1 text-xs font-mono transition-all ${
                       focus === s.key
-                        ? "border-primary/50 bg-primary/15 text-primary"
-                        : "border-border text-muted-foreground hover:text-foreground"
+                        ? "border-cyan-400/60 bg-cyan-400/20 text-cyan-300 font-semibold shadow-[0_0_12px_rgba(34,211,238,0.2)]"
+                        : "border-cyan-500/20 bg-[#0B1821]/60 text-[#7F98A3] hover:text-[#E5EEF2] hover:bg-cyan-500/10"
                     }`}
                   >
                     {s.short}
@@ -188,12 +188,12 @@ function Dashboard() {
               {latestMulti && !alertOpen && (
                 <button
                   onClick={manualOpen}
-                  className="mt-3 w-full rounded-lg border border-alert/40 bg-alert/10 px-3 py-2 text-left text-xs text-alert hover:bg-alert/15 transition-colors"
+                  className="mt-3 w-full rounded-lg border border-red-500/60 bg-[#16080C]/40 px-3.5 py-2.5 text-left text-xs font-mono text-red-300 shadow-[0_0_15px_-3px_rgba(239,68,68,0.25)] backdrop-blur-md hover:bg-[#16080C]/60 hover:border-red-500/80 transition-all"
                   id="reopen-multisignal-btn"
                 >
-                  ⚡ Multi-signal alert detected —{" "}
-                  <span className="underline">
-                    View fullscreen panel
+                  <span className="font-bold text-red-400">⚠ CRITICAL OUTLIER:</span> Multi-signal alert detected —{" "}
+                  <span className="underline font-semibold text-red-200">
+                    View fullscreen console panel
                   </span>
                 </button>
               )}

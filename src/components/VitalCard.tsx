@@ -22,25 +22,25 @@ export function resolveCardStatus(
 function StatusBadge({ status }: { status: CardStatus }) {
   const config = {
     normal: {
-      label: "Normal",
+      label: "NOMINAL",
       icon: "●",
-      cls: "border-normal/40 bg-normal/15 text-normal",
+      cls: "border-emerald-500/40 bg-emerald-500/15 text-emerald-400",
     },
     deviation: {
       label: "DEVIATION",
       icon: "⚠",
-      cls: "border-warning/50 bg-warning/20 text-warning font-semibold tracking-wide",
+      cls: "border-amber-500/50 bg-amber-500/20 text-amber-400 font-semibold tracking-wide",
     },
     multi_signal: {
-      label: "MULTI-SIGNAL",
+      label: "CRITICAL OUTLIER",
       icon: "⚡",
-      cls: "border-alert/60 bg-alert/20 text-alert vital-card-multisignal-badge font-semibold tracking-wide",
+      cls: "border-red-500/60 bg-red-500/20 text-red-400 vital-card-multisignal-badge font-semibold tracking-wide",
     },
   }[status];
 
   return (
     <span
-      className={`inline-flex items-center gap-1.5 rounded-full border px-2.5 py-1 text-[11px] font-medium tracking-wide ${config.cls}`}
+      className={`inline-flex items-center gap-1.5 rounded-full border px-2.5 py-0.5 text-[11px] font-mono tracking-wide ${config.cls}`}
       aria-label={`Status: ${config.label}`}
     >
       <span aria-hidden>{config.icon}</span>
@@ -73,22 +73,29 @@ export function VitalCard({
   const deviating = status !== "normal";
 
   const containerCls = [
-    "glass-panel p-4 transition-all duration-500",
+    "bg-[#08131B]/25 border border-cyan-500/20 text-[#E5EEF2] p-4 rounded-xl backdrop-blur-md transition-all duration-300 shadow-[0_4px_24px_-4px_rgba(5,10,15,0.4)] hover:bg-[#08131B]/40",
     status === "multi_signal"
       ? "vital-card-multisignal"
       : status === "deviation"
         ? "vital-card-deviation"
-        : "",
+        : "hover:border-cyan-400/40 hover:shadow-[0_0_24px_rgba(34,211,238,0.12)]",
   ]
     .filter(Boolean)
     .join(" ");
 
   const strokeColor =
     status === "multi_signal"
-      ? "var(--color-alert)"
+      ? "#EF4444"
       : status === "deviation"
-        ? "var(--color-warning)"
-        : "var(--color-primary)";
+        ? "#F59E0B"
+        : "#22D3EE";
+
+  const valueColorCls =
+    status === "multi_signal"
+      ? "text-red-400 glow-alert-text"
+      : status === "deviation"
+        ? "text-amber-400"
+        : "text-cyan-400 glow-cyan-text";
 
   return (
     <article
@@ -96,38 +103,38 @@ export function VitalCard({
       aria-label={`${meta.label}: ${value.toFixed(meta.decimals)} ${meta.unit}. Status: ${status.replace("_", " ")}`}
     >
       <header className="flex items-center justify-between gap-2">
-        <p className="flex items-center gap-2 text-xs uppercase tracking-wider text-muted-foreground">
-          <span aria-hidden>{meta.icon}</span>
+        <span className="flex items-center gap-2 text-xs uppercase font-mono tracking-wider text-[#7F98A3]">
+          <span aria-hidden className="text-base">{meta.icon}</span>
           {meta.label}
-        </p>
+        </span>
         <StatusBadge status={status} />
       </header>
 
-      <p className="mt-3 font-display text-3xl font-semibold tabular-nums">
+      <h3 className={`mt-3 font-mono text-3xl font-bold tabular-nums flex items-baseline gap-1.5 ${valueColorCls}`}>
         {value.toFixed(meta.decimals)}
-        <span className="ml-1 text-sm font-normal text-muted-foreground">
+        <span className="text-sm font-normal text-[#7F98A3]">
           {meta.unit}
         </span>
-      </p>
+      </h3>
 
-      <p className="mt-1 text-xs text-muted-foreground tabular-nums">
+      <p className="mt-1 text-xs text-[#7F98A3] font-mono tabular-nums">
         Baseline {baseline.lower.toFixed(meta.decimals)}–
         {baseline.upper.toFixed(meta.decimals)} {meta.unit}
         {deviating && (
-          <span className={status === "multi_signal" ? "text-alert ml-2" : "text-warning ml-2"}>
+          <span className={status === "multi_signal" ? "text-red-400 font-bold ml-2" : "text-amber-400 font-bold ml-2"}>
             · z {z.toFixed(2)}σ
           </span>
         )}
       </p>
 
       {status === "multi_signal" && (
-        <p className="mt-2 text-xs font-medium text-alert animate-pulse">
-          ⚡ Multiple health signals deviating
+        <p className="mt-2 text-xs font-mono font-semibold text-red-400 animate-pulse">
+          ⚡ CRITICAL OUTLIER: Multiple signals deviating
         </p>
       )}
 
       {status === "deviation" && (
-        <p className="mt-2 text-xs text-warning">
+        <p className="mt-2 text-xs font-mono text-amber-400">
           ⚠ {z > 0 ? "Above" : "Below"} personal baseline
         </p>
       )}

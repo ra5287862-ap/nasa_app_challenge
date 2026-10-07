@@ -30,8 +30,8 @@ function TimelinePage() {
 
   return (
     <AppShell title="Mission Timeline">
-      <section className="glass-panel overflow-x-auto p-5">
-        <h2 className="font-display text-sm uppercase tracking-wider text-muted-foreground">
+      <section className="bg-[#08131B]/25 border border-cyan-500/20 rounded-xl overflow-x-auto p-5 shadow-[0_4px_24px_-4px_rgba(5,10,15,0.7)] backdrop-blur-md">
+        <h2 className="font-mono text-xs uppercase tracking-wider text-[#7F98A3]">
           Mission days 1–{today}
         </h2>
         <div className="mt-6 flex min-w-max items-start gap-6 pb-2">
@@ -39,16 +39,16 @@ function TimelinePage() {
             const dayAlerts = alerts.filter((a) => missionDay(a.timestamp) === d);
             const multi = dayAlerts.some((a) => a.rule === "MULTI_SIGNAL_48H");
             const color = multi
-              ? "bg-alert text-alert"
+              ? "bg-[#EF4444] text-[#EF4444]"
               : dayAlerts.length
-                ? "bg-warning text-warning"
-                : "bg-normal text-normal";
+                ? "bg-[#F59E0B] text-[#F59E0B]"
+                : "bg-[#22C55E] text-[#22C55E]";
             return (
-              <div key={d} className="w-28 text-center">
+              <div key={d} className="w-28 text-center font-mono">
                 <span className={`status-dot mx-auto ${color}`} aria-hidden />
-                <p className="mt-2 text-xs text-muted-foreground">Day {d}</p>
-                <p className="text-[11px]">
-                  {multi ? "Multi-signal" : dayAlerts.length ? "Deviation" : "Normal"}
+                <p className="mt-2 text-xs text-[#7F98A3]">Day {d}</p>
+                <p className={`text-[11px] font-semibold ${multi ? "text-red-400" : dayAlerts.length ? "text-amber-400" : "text-emerald-400"}`}>
+                  {multi ? "CRITICAL" : dayAlerts.length ? "Deviation" : "Nominal"}
                 </p>
               </div>
             );
@@ -56,31 +56,40 @@ function TimelinePage() {
         </div>
       </section>
 
-      <section className="mt-6 space-y-3">
+      <section className="mt-6 space-y-3 font-mono">
         {alerts.length === 0 ? (
-          <p className="glass-panel p-6 text-sm text-muted-foreground">
+          <p className="bg-[#08131B]/25 border border-cyan-500/20 rounded-xl p-6 text-sm text-[#7F98A3] backdrop-blur-md">
             No events recorded yet in this replay.
           </p>
         ) : (
-          alerts.map((a) => (
-            <Link
-              key={a.alert_id}
-              to="/alerts/$alertId"
-              params={{ alertId: a.alert_id }}
-              className="glass-panel flex flex-wrap items-center justify-between gap-2 p-4 transition-colors hover:bg-accent/20"
-            >
-              <span className="text-sm">
-                <span className={a.rule === "MULTI_SIGNAL_48H" ? "text-alert" : "text-warning"}>
-                  {a.rule === "MULTI_SIGNAL_48H" ? "⚠ Multi-signal 48h" : "⚠ Deviation"}
-                </span>{" "}
-                ·{" "}
-                {a.signals.map((s) => SIGNAL_BY_KEY[s.signal].label).join(", ")}
-              </span>
-              <span className="text-xs text-muted-foreground tabular-nums">
-                Day {missionDay(a.timestamp)} · {formatDateUtc(a.timestamp)}
-              </span>
-            </Link>
-          ))
+          alerts.map((a) => {
+            const isMulti = a.rule === "MULTI_SIGNAL_48H";
+            return (
+              <Link
+                key={a.alert_id}
+                to="/alerts/$alertId"
+                params={{ alertId: a.alert_id }}
+                className={`flex flex-wrap items-center justify-between gap-2 p-4 rounded-xl border backdrop-blur-md transition-all ${
+                  isMulti
+                    ? "bg-[#16080C]/35 border-red-500/40 text-red-200 hover:border-red-500/80 hover:bg-[#16080C]/50"
+                    : "bg-[#08131B]/25 border-amber-500/30 text-[#E5EEF2] hover:border-amber-500/60 hover:bg-[#08131B]/40"
+                }`}
+              >
+                <span className="text-sm">
+                  <span className={isMulti ? "text-red-400 font-bold" : "text-amber-400 font-bold"}>
+                    {isMulti ? "⚠ CRITICAL OUTLIER (48H)" : "⚠ SIGNAL DEVIATION"}
+                  </span>{" "}
+                  ·{" "}
+                  <span className="text-[#E5EEF2]">
+                    {a.signals.map((s) => SIGNAL_BY_KEY[s.signal].label).join(", ")}
+                  </span>
+                </span>
+                <span className="text-xs text-[#7F98A3] tabular-nums">
+                  Day {missionDay(a.timestamp)} · {formatDateUtc(a.timestamp)}
+                </span>
+              </Link>
+            );
+          })
         )}
       </section>
     </AppShell>

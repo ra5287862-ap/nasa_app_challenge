@@ -56,10 +56,16 @@ function AlertDetails() {
         <ArrowLeft className="size-4" aria-hidden /> Back to alerts
       </Link>
 
-      <section className="glass-panel mt-4 p-5">
+      <section
+        className={`mt-4 p-5 rounded-xl backdrop-blur-md transition-all ${
+          alert.rule === "MULTI_SIGNAL_48H"
+            ? "bg-[#16080C]/35 border border-red-500/60 shadow-[0_0_20px_-5px_rgba(239,68,68,0.25)]"
+            : "bg-[#08131B]/25 border border-cyan-500/20 text-[#E5EEF2] shadow-[0_4px_24px_-4px_rgba(5,10,15,0.4)]"
+        }`}
+      >
         <div className="flex flex-wrap items-center justify-between gap-3">
           <AlertBadge alert={alert} />
-          <p className="text-xs text-muted-foreground tabular-nums">
+          <p className="text-xs text-[#7F98A3] font-mono tabular-nums">
             {alert.alert_id} · Day {missionDay(alert.timestamp)} ·{" "}
             {formatDateUtc(alert.timestamp)}
           </p>
@@ -68,31 +74,42 @@ function AlertDetails() {
         <div className="mt-5 grid gap-3 sm:grid-cols-2">
           {alert.signals.map((s) => {
             const meta = SIGNAL_BY_KEY[s.signal];
+            const isCritical = alert.rule === "MULTI_SIGNAL_48H";
             return (
               <div
                 key={s.signal}
-                className="rounded-xl border border-border/60 bg-panel/40 p-4"
+                className={`rounded-xl p-4 backdrop-blur-sm ${
+                  isCritical
+                    ? "border border-red-500/30 bg-[#16080C]/30"
+                    : "border border-cyan-500/20 bg-[#0B1821]/30"
+                }`}
               >
-                <p className="text-xs uppercase tracking-wider text-muted-foreground">
+                <p className="text-xs font-mono uppercase tracking-wider text-[#7F98A3]">
                   {meta.icon} {meta.label}
                 </p>
-                <p className="mt-1 font-display text-2xl tabular-nums">
+                <p
+                  className={`mt-1 font-mono text-2xl font-bold tabular-nums ${
+                    isCritical ? "text-red-400 glow-alert-text" : "text-cyan-400 glow-cyan-text"
+                  }`}
+                >
                   {s.value.toFixed(meta.decimals)} {meta.unit}
                 </p>
-                <dl className="mt-2 space-y-1 text-xs text-muted-foreground tabular-nums">
+                <dl className="mt-2 space-y-1 text-xs text-[#7F98A3] font-mono tabular-nums">
                   <div className="flex justify-between">
                     <dt>Baseline mean</dt>
-                    <dd>
+                    <dd className="text-[#E5EEF2]">
                       {s.baseline_mean.toFixed(meta.decimals)} {meta.unit}
                     </dd>
                   </div>
                   <div className="flex justify-between">
                     <dt>Baseline std</dt>
-                    <dd>{s.baseline_std.toFixed(2)}</dd>
+                    <dd className="text-[#E5EEF2]">{s.baseline_std.toFixed(2)}</dd>
                   </div>
                   <div className="flex justify-between">
                     <dt>Z-score</dt>
-                    <dd className="text-alert">{s.z_score.toFixed(2)}</dd>
+                    <dd className={isCritical ? "text-red-400 font-bold" : "text-amber-400 font-bold"}>
+                      {s.z_score.toFixed(2)}σ
+                    </dd>
                   </div>
                 </dl>
               </div>
@@ -100,55 +117,55 @@ function AlertDetails() {
           })}
         </div>
 
-        <div className="mt-4 flex flex-wrap items-center justify-between gap-2 rounded-lg border border-border/60 bg-muted/30 px-3.5 py-2 text-xs text-muted-foreground">
+        <div className="mt-4 flex flex-wrap items-center justify-between gap-2 rounded-lg border border-cyan-500/20 bg-[#040A10]/40 px-3.5 py-2 text-xs text-[#7F98A3] font-mono backdrop-blur-sm">
           <div>
-            Rule: <strong className="text-foreground">{alert.rule}</strong> ·
-            Threshold: <strong className="text-primary">{alert.threshold.toFixed(1)}σ</strong>
+            Rule: <strong className="text-[#E5EEF2]">{alert.rule}</strong> ·
+            Threshold: <strong className="text-cyan-400">{alert.threshold.toFixed(1)}σ</strong>
             {alert.window_hours ? ` · Detection window: ${alert.window_hours}h` : ""}
           </div>
           <div className="flex items-center gap-2">
             <span className="text-emerald-400 font-medium">● Deterministic Rule Fired: TRUE</span>
-            <span className="text-border">|</span>
-            <span className="text-muted-foreground">Target: Astronaut Alex</span>
+            <span className="text-cyan-500/30">|</span>
+            <span className="text-[#7F98A3]">Target: Astronaut Alex</span>
           </div>
         </div>
       </section>
 
-      {/* Explanation Agent */}
-      <section className="glass-panel mt-6 p-5">
+      {/* AI Explanation Layer - Purple Theme */}
+      <section className="mt-6 rounded-xl border border-purple-500/35 bg-[#0D0B18]/30 p-5 text-slate-200 shadow-[0_0_20px_-5px_rgba(139,92,246,0.18)] backdrop-blur-md">
         <div className="flex flex-wrap items-center justify-between gap-3">
-          <div className="flex items-center gap-2">
-            <span className="grid size-7 place-items-center rounded-lg bg-accent/20 text-accent font-bold text-xs">
+          <div className="flex items-center gap-2.5">
+            <span className="grid size-8 place-items-center rounded-lg border border-purple-500/40 bg-purple-500/20 text-purple-300 font-bold text-sm shadow-[0_0_10px_rgba(139,92,246,0.3)]">
               🤖
             </span>
             <div>
-              <h2 className="font-display text-sm uppercase tracking-wider text-accent font-semibold">
-                Explanation Agent
-              </h2>
-              <p className="text-[11px] text-muted-foreground">
-                AI Contextualizer (Constrained to NASA OSDR Metadata)
+              <span className="text-purple-400 text-xs font-mono font-semibold tracking-wider block">
+                AI EXPLANATION LAYER
+              </span>
+              <p className="text-slate-300 text-xs">
+                Evidence-grounded telemetry interpretation (Constrained to NASA OSDR Metadata)
               </p>
             </div>
           </div>
           <button
             onClick={() => setExplanation(explainAlert(alert))}
-            className="inline-flex items-center gap-1.5 rounded-lg border border-primary/50 bg-primary/15 px-3 py-1.5 text-xs font-semibold text-primary transition-colors hover:bg-primary/25"
+            className="inline-flex items-center gap-1.5 rounded-lg border border-purple-500/50 bg-purple-500/20 px-3.5 py-1.5 text-xs font-mono font-semibold text-purple-200 transition-all hover:bg-purple-500/30 hover:border-purple-400 hover:shadow-[0_0_15px_rgba(139,92,246,0.35)] active:scale-95"
           >
-            <Sparkles className="size-3.5" aria-hidden /> Explain Alert
+            <Sparkles className="size-3.5 text-purple-300" aria-hidden /> Explain Alert
           </button>
         </div>
 
-        <p className="mt-3 text-xs text-muted-foreground leading-relaxed">
+        <p className="mt-3 text-xs text-[#7F98A3] leading-relaxed">
           Explains rule firings in plain language without diagnosing.
-          <strong className="text-foreground"> Guardrail: AI ≠ Doctor.</strong> All diagnostic, disease and prescription terminology is blocked by an automated post-generation safety filter.
+          <strong className="text-[#E5EEF2]"> Guardrail: AI ≠ Doctor.</strong> All diagnostic, disease and prescription terminology is blocked by an automated post-generation safety filter.
         </p>
 
         {explanation ? (
           <div className="mt-3 space-y-2">
-            <div className="rounded-lg border border-border/80 bg-panel/80 p-3 text-xs leading-relaxed text-foreground whitespace-pre-line font-sans">
+            <div className="rounded-lg border border-purple-500/30 bg-[#0B0818]/45 p-4 text-xs leading-relaxed text-[#E5EEF2] whitespace-pre-line font-sans shadow-inner backdrop-blur-sm">
               {explanation.text}
             </div>
-            <div className="flex items-center justify-between text-[11px] text-muted-foreground px-1">
+            <div className="flex items-center justify-between text-[11px] text-[#7F98A3] font-mono px-1">
               <span className="inline-flex items-center gap-1 text-emerald-400 font-medium">
                 🛡️ Guardrail Post-Check: {explanation.passed ? "PASSED (Clean)" : "BLOCKED (Safe fallback)"}
               </span>
@@ -156,8 +173,8 @@ function AlertDetails() {
             </div>
           </div>
         ) : (
-          <div className="mt-3 rounded-lg border border-dashed border-border/80 p-4 text-center text-xs text-muted-foreground">
-            Click &quot;Explain Alert&quot; to prompt the Explanation Agent.
+          <div className="mt-3 rounded-lg border border-dashed border-purple-500/30 bg-[#0B0818]/25 p-4 text-center text-xs font-mono text-[#7F98A3] backdrop-blur-sm">
+            Click &quot;Explain Alert&quot; to prompt the AI Explanation Layer.
           </div>
         )}
       </section>
@@ -187,7 +204,7 @@ function AlertDetails() {
             {explanation.studies.map((s) => (
               <li
                 key={s.id}
-                className="flex flex-col justify-between rounded-xl border border-border/60 bg-panel/40 p-4"
+                className="flex flex-col justify-between rounded-xl border border-cyan-500/20 bg-[#08131B]/25 p-4 backdrop-blur-md hover:bg-[#08131B]/40 transition-colors"
               >
                 <div>
                   <div className="flex items-center justify-between gap-2">

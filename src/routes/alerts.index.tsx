@@ -45,10 +45,10 @@ function AlertsPage() {
             key={f}
             onClick={() => setFilter(f)}
             aria-pressed={filter === f}
-            className={`rounded-lg border px-3 py-1.5 text-sm transition-colors ${
+            className={`rounded-lg border px-3.5 py-1.5 text-xs font-mono font-medium transition-all ${
               filter === f
-                ? "border-primary/50 bg-primary/15 text-primary"
-                : "border-border text-muted-foreground hover:text-foreground"
+                ? "border-cyan-400/60 bg-cyan-400/20 text-cyan-300 font-semibold shadow-[0_0_12px_rgba(34,211,238,0.25)]"
+                : "border-cyan-500/20 bg-[#0B1821]/40 backdrop-blur-md text-[#7F98A3] hover:text-[#E5EEF2] hover:bg-cyan-500/10"
             }`}
           >
             {f}

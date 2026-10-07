@@ -38,62 +38,63 @@ function CrewProfile() {
   return (
     <AppShell title="Crew Profile — Astronaut Alex">
       {/* Story Narrative Box */}
-      <div className="mb-6 rounded-xl border border-primary/30 bg-primary/10 p-4 backdrop-blur-sm">
-        <h3 className="text-sm font-semibold text-foreground flex items-center gap-2">
-          <span>🧑‍🚀</span> Individualized Spaceflight Monitoring Philosophy
+      <div className="mb-6 rounded-xl border border-cyan-500/30 bg-[#08131B]/30 p-4.5 text-[#E5EEF2] shadow-[0_4px_20px_-4px_rgba(5,10,15,0.4)] backdrop-blur-md">
+        <h3 className="text-sm font-mono font-bold text-cyan-300 glow-cyan-text flex items-center gap-2">
+          <span>🧑‍🚀</span> INDIVIDUALIZED SPACEFLIGHT MONITORING PHILOSOPHY
         </h3>
-        <p className="mt-1 text-xs text-muted-foreground leading-relaxed">
+        <p className="mt-1.5 text-xs text-[#7F98A3] leading-relaxed font-sans">
           Alex is millions of kilometers from Earth, months away from any hospital or clinical team.
           Every astronaut has unique physiological setpoints: for example, Alex’s normal resting HRV is
-          <strong> ~48 ms</strong>, whereas another crew member’s might naturally sit at <strong>30–35 ms</strong>.
+          <strong className="text-[#E5EEF2]"> ~48 ms</strong>, whereas another crew member’s might naturally sit at <strong className="text-[#E5EEF2]">30–35 ms</strong>.
           The console never compares Alex to other astronauts — detection is strictly individualized to Alex's personal baseline.
         </p>
       </div>
 
-      <section className="glass-panel grid gap-4 p-5 sm:grid-cols-2 xl:grid-cols-5">
+      <section className="bg-[#08131B]/25 border border-cyan-500/20 rounded-xl p-5 shadow-[0_4px_24px_-4px_rgba(5,10,15,0.4)] backdrop-blur-md grid gap-4 sm:grid-cols-2 xl:grid-cols-5">
         {facts.map((f) => (
-          <div key={f.label}>
-            <p className="text-xs uppercase tracking-wider text-muted-foreground">
+          <div key={f.label} className="rounded-lg bg-[#040A10]/30 border border-cyan-500/15 p-3 backdrop-blur-sm">
+            <p className="text-xs uppercase font-mono tracking-wider text-[#7F98A3]">
               {f.label}
             </p>
-            <p className="mt-1 font-display text-sm font-semibold">{f.value}</p>
+            <p className="mt-1 font-mono text-sm font-bold text-[#E5EEF2]">{f.value}</p>
           </div>
         ))}
       </section>
 
-      <section className="glass-panel mt-6 overflow-hidden p-5">
-        <h2 className="font-display text-sm uppercase tracking-wider text-muted-foreground">
-          Alex's Personal baseline overview
+      <section className="bg-[#08131B]/25 border border-cyan-500/20 rounded-xl p-5 shadow-[0_4px_24px_-4px_rgba(5,10,15,0.4)] backdrop-blur-md mt-6 overflow-hidden">
+        <h2 className="font-mono text-sm uppercase tracking-wider text-cyan-400 font-semibold flex items-center gap-2">
+          <span>📊</span> Alex's Personal baseline overview
         </h2>
         <div className="mt-4 overflow-x-auto">
           <table className="w-full min-w-[520px] text-sm">
             <thead>
-              <tr className="text-left text-xs uppercase tracking-wider text-muted-foreground">
-                <th className="py-2">Signal</th>
-                <th className="py-2">Baseline mean</th>
-                <th className="py-2">Normal band</th>
-                <th className="py-2">Current z-score</th>
+              <tr className="text-left text-xs uppercase font-mono tracking-wider text-[#7F98A3] border-b border-cyan-500/20">
+                <th className="py-2.5">Signal</th>
+                <th className="py-2.5">Baseline mean</th>
+                <th className="py-2.5">Normal band</th>
+                <th className="py-2.5">Current z-score</th>
               </tr>
             </thead>
-            <tbody>
+            <tbody className="font-mono">
               {SIGNALS.map((s) => {
                 const b = baselines[s.key];
                 const z = zScores[s.key];
+                const isAlert = Math.abs(z) >= config.threshold;
                 return (
-                  <tr key={s.key} className="border-t border-border/60">
-                    <td className="py-2.5">
-                      <span aria-hidden>{s.icon}</span> {s.label}
+                  <tr key={s.key} className="border-t border-cyan-500/10 hover:bg-cyan-500/5 transition-colors">
+                    <td className="py-2.5 text-[#E5EEF2]">
+                      <span aria-hidden className="mr-1.5">{s.icon}</span> {s.label}
                     </td>
-                    <td className="py-2.5 tabular-nums">
+                    <td className="py-2.5 tabular-nums text-cyan-300">
                       {b.mean.toFixed(s.decimals)} {s.unit}
                     </td>
-                    <td className="py-2.5 tabular-nums">
+                    <td className="py-2.5 tabular-nums text-[#7F98A3]">
                       {b.lower.toFixed(s.decimals)}–{b.upper.toFixed(s.decimals)} {s.unit}
                     </td>
                     <td
-                      className={`py-2.5 tabular-nums ${Math.abs(z) >= config.threshold ? "text-alert" : "text-normal"}`}
+                      className={`py-2.5 tabular-nums font-bold ${isAlert ? "text-red-400 glow-alert-text" : "text-emerald-400"}`}
                     >
-                      {z.toFixed(2)}
+                      {z.toFixed(2)}σ
                     </td>
                   </tr>
                 );

@@ -306,12 +306,12 @@ export function SpaceBackground() {
   return (
     <>
       <div className="pointer-events-none fixed inset-0 z-0 overflow-hidden" aria-hidden="true">
-        {/* Deep Cosmos background gradient */}
-        <div className="absolute inset-0 bg-[#04060f] -z-20" />
+        {/* Deep Cosmos background void */}
+        <div className="absolute inset-0 bg-[#050A0F] -z-20" />
 
         {/* Ambient Pulsing Cosmic Nebula Orbs (smooth CSS blur) */}
         <div
-          className="absolute -top-32 -left-32 size-[550px] rounded-full bg-cyan-600/12 blur-[130px] animate-pulse -z-10 pointer-events-none"
+          className="absolute -top-32 -left-32 size-[550px] rounded-full bg-cyan-500/10 blur-[130px] animate-pulse -z-10 pointer-events-none"
           style={{ animationDuration: "14s" }}
         />
         <div
@@ -319,7 +319,7 @@ export function SpaceBackground() {
           style={{ animationDuration: "18s", animationDelay: "3s" }}
         />
         <div
-          className="absolute -bottom-36 left-1/3 size-[500px] rounded-full bg-indigo-600/10 blur-[130px] animate-pulse -z-10 pointer-events-none"
+          className="absolute -bottom-36 left-1/3 size-[500px] rounded-full bg-sky-500/10 blur-[130px] animate-pulse -z-10 pointer-events-none"
           style={{ animationDuration: "16s", animationDelay: "6s" }}
         />
 
@@ -335,13 +335,13 @@ export function SpaceBackground() {
         <button
           type="button"
           onClick={() => setWarpMode((prev) => !prev)}
-          className="flex items-center gap-2 rounded-full border border-sky-400/30 bg-[#080d1a]/80 px-3.5 py-1.5 text-xs font-medium text-sky-200 shadow-[0_0_18px_rgba(56,189,248,0.2)] backdrop-blur-md transition-all hover:border-sky-400/60 hover:bg-[#0f172a] hover:shadow-[0_0_24px_rgba(56,189,248,0.4)] active:scale-95"
+          className="flex items-center gap-2 rounded-full border border-cyan-400/30 bg-[#08131B]/90 px-3.5 py-1.5 text-xs font-medium text-[#E5EEF2] shadow-[0_0_18px_rgba(34,211,238,0.2)] backdrop-blur-md transition-all hover:border-cyan-400/60 hover:bg-[#0B1821] hover:shadow-[0_0_24px_rgba(34,211,238,0.4)] active:scale-95"
           title="Click to toggle Hyperdrive / Warp Animation speed"
         >
           <span className="relative flex size-2">
             <span
               className={`absolute inline-flex h-full w-full rounded-full ${
-                warpMode ? "bg-sky-400 animate-ping opacity-85" : "bg-cyan-500"
+                warpMode ? "bg-cyan-400 animate-ping opacity-85" : "bg-cyan-500"
               }`}
             />
             <span

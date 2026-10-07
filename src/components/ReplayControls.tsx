@@ -26,15 +26,15 @@ export function ReplayControls() {
   const isAtAnomaly = cursor >= anomalyIndex && cursor <= anomalyIndex + 80;
 
   return (
-    <div className="flex flex-col gap-3 rounded-xl border border-border/70 bg-card/60 p-3 backdrop-blur-md">
+    <div className="flex flex-col gap-3 rounded-xl border border-cyan-500/20 bg-[#08131B]/25 p-3.5 text-[#E5EEF2] backdrop-blur-md shadow-[0_4px_20px_-4px_rgba(5,10,15,0.4)]">
       {/* Top row: Mode selector, speed & playback controls */}
       <div className="flex flex-wrap items-center justify-between gap-3">
         <div className="flex items-center gap-2">
-          <label className="text-xs font-medium text-muted-foreground">Mode:</label>
+          <label className="text-xs font-mono text-[#7F98A3]">MODE:</label>
           <select
             value={mode}
             onChange={(e) => setMode(e.target.value as any)}
-            className="rounded-lg border border-input bg-panel px-2.5 py-1 text-xs font-medium text-foreground focus:outline-none focus:ring-1 focus:ring-primary"
+            className="rounded-lg border border-cyan-500/25 bg-[#040A10]/50 backdrop-blur-sm px-2.5 py-1 text-xs font-mono text-[#E5EEF2] focus:outline-none focus:border-cyan-400"
           >
             <option value="fixture-600">Deterministic 600s Fixture (Anomaly @ 07:30)</option>
             <option value="simulated-720">Extended Synthetic Mission (720 pts)</option>
@@ -46,10 +46,10 @@ export function ReplayControls() {
             <button
               onClick={jumpToAnomaly}
               title="Jump to 07:30 (Index 450) where Alex's planted multi-signal anomaly begins"
-              className={`inline-flex items-center gap-1.5 rounded-lg border px-3 py-1.5 text-xs font-semibold transition-all ${
+              className={`inline-flex items-center gap-1.5 rounded-lg border px-3 py-1.5 text-xs font-mono font-semibold transition-all ${
                 isAtAnomaly
-                  ? "border-destructive/80 bg-destructive/20 text-destructive shadow-sm animate-pulse"
-                  : "border-warning/60 bg-warning/15 text-warning hover:bg-warning/25"
+                  ? "border-red-500/80 bg-red-500/20 text-red-300 shadow-[0_0_15px_rgba(239,68,68,0.4)] animate-pulse"
+                  : "border-amber-500/50 bg-amber-500/15 text-amber-300 hover:bg-amber-500/25"
               }`}
             >
               <AlertTriangle className="size-3.5" aria-hidden />
@@ -57,12 +57,12 @@ export function ReplayControls() {
             </button>
           )}
 
-          <label className="flex items-center gap-1.5 text-xs text-muted-foreground">
-            <span>Speed</span>
+          <label className="flex items-center gap-1.5 text-xs font-mono text-[#7F98A3]">
+            <span>SPEED</span>
             <select
               value={speed}
               onChange={(e) => setSpeed(Number(e.target.value))}
-              className="rounded-lg border border-input bg-panel px-2 py-1 text-xs text-foreground focus:outline-none focus:ring-1 focus:ring-primary"
+              className="rounded-lg border border-cyan-500/25 bg-[#040A10]/50 backdrop-blur-sm px-2 py-1 text-xs font-mono text-[#E5EEF2] focus:outline-none focus:border-cyan-400"
             >
               {SPEEDS.map((s) => (
                 <option key={s} value={s}>
@@ -74,15 +74,15 @@ export function ReplayControls() {
 
           <button
             onClick={() => setRunning(!running)}
-            className="inline-flex items-center gap-1.5 rounded-lg border border-border bg-panel px-3 py-1 text-xs font-medium transition-colors hover:bg-accent/40"
+            className="inline-flex items-center gap-1.5 rounded-lg border border-cyan-500/30 bg-[#0B1821]/40 backdrop-blur-sm px-3 py-1 text-xs font-mono font-medium text-[#E5EEF2] transition-colors hover:bg-cyan-500/20 hover:border-cyan-400/50"
           >
             {running ? (
               <>
-                <Pause className="size-3.5" aria-hidden /> Pause
+                <Pause className="size-3.5 text-cyan-300" aria-hidden /> Pause
               </>
             ) : (
               <>
-                <Play className="size-3.5" aria-hidden /> Run
+                <Play className="size-3.5 text-cyan-300" aria-hidden /> Run
               </>
             )}
           </button>
@@ -90,31 +90,31 @@ export function ReplayControls() {
           <button
             onClick={restart}
             title="Restart replay from warmup"
-            className="inline-flex items-center gap-1.5 rounded-lg border border-border bg-panel px-2.5 py-1 text-xs font-medium transition-colors hover:bg-accent/40"
+            className="inline-flex items-center gap-1.5 rounded-lg border border-cyan-500/30 bg-[#0B1821]/40 backdrop-blur-sm px-2.5 py-1 text-xs font-medium text-[#E5EEF2] transition-colors hover:bg-cyan-500/20 hover:border-cyan-400/50"
           >
-            <RotateCcw className="size-3.5" aria-hidden />
+            <RotateCcw className="size-3.5 text-cyan-300" aria-hidden />
           </button>
         </div>
       </div>
 
       {/* Scrubber timeline bar with anomaly beat marker */}
       <div className="flex flex-col gap-1.5">
-        <div className="flex items-center justify-between text-[11px] text-muted-foreground">
+        <div className="flex items-center justify-between text-[11px] font-mono text-[#7F98A3]">
           <span>
             {isFixtureMode ? (
               <>
-                Demo Beat: <strong className="text-foreground">{formatSecondsAsBeat(cursor)}</strong> / 10:00{" "}
+                Demo Beat: <strong className="text-cyan-300">{formatSecondsAsBeat(cursor)}</strong> / 10:00{" "}
                 <span className="opacity-70">(Index {cursor} / 600)</span>
               </>
             ) : (
               <>
-                Sample: <strong className="text-foreground">{cursor}</strong> / {series.length}
+                Sample: <strong className="text-cyan-300">{cursor}</strong> / {series.length}
               </>
             )}
           </span>
           {isFixtureMode && (
-            <span className="flex items-center gap-1 font-mono text-[10px] text-warning">
-              <span className="inline-block size-1.5 rounded-full bg-warning animate-ping" />
+            <span className="flex items-center gap-1 font-mono text-[10px] text-amber-400">
+              <span className="inline-block size-1.5 rounded-full bg-amber-400 animate-ping" />
               Anomaly planted at 07:30 (idx 450)
             </span>
           )}
@@ -127,7 +127,7 @@ export function ReplayControls() {
             max={maxIndex}
             value={cursor}
             onChange={(e) => seek(Number(e.target.value))}
-            className="h-2 w-full cursor-pointer appearance-none rounded-lg bg-secondary/80 accent-primary focus:outline-none"
+            className="h-2 w-full cursor-pointer appearance-none rounded-lg bg-[#0B1821] accent-cyan-400 focus:outline-none"
           />
 
           {/* Anomaly marker on scrubber track */}
@@ -137,7 +137,7 @@ export function ReplayControls() {
               className="pointer-events-none absolute top-1/2 -translate-y-1/2 -translate-x-1/2"
               title="Planted Anomaly Location: 07:30 (Sample 450)"
             >
-              <div className="size-3 rounded-full border-2 border-background bg-destructive shadow-sm" />
+              <div className="size-3.5 rounded-full border-2 border-[#050A0F] bg-[#EF4444] shadow-[0_0_8px_rgba(239,68,68,0.8)]" />
             </div>
           )}
         </div>
